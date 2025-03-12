@@ -143,6 +143,8 @@
         // Log out
         async function logout() {
             const response = await fetch(`${API_URL}?action=logout`);
+            get('username').value = '';
+            get('password').value = '';
             if (response.ok) {
                 checkAuth();
             }
