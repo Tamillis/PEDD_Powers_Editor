@@ -8,7 +8,7 @@
         "preq": [
             "Dexterity +1"
         ],
-        "desc": "TEST\n\nYou can push yourself beyond your normal limits for a moment. After your Action, you can take one additional Action.\n\nOnce you use this Power, you must finish a Short Rest before you can use it again."
+        "desc": "You can push yourself beyond your normal limits for a moment. After your Action, you can take one additional Action.\n\nOnce you use this Power, you must finish a Short Rest before you can use it again."
     },
     {
         "name": "Adrenaline Rush",
@@ -21,7 +21,7 @@
         "preq": [
             "Strength +1"
         ],
-        "desc": "THIS IS A DEMO.\n\nAs a Bonus Action, you can move up to your Speed while an enemy can see or hear you. You can use this Power a number of times equal to your Strength, where you must finish a Long Rest before you can use it again. Whenever you use this trait, you gain Temporary Health equal to your Strength."
+        "desc": "As a Bonus Action, you can move up to your Speed while an enemy can see or hear you. You can use this Power a number of times equal to your Strength, where you must finish a Long Rest before you can use it again. Whenever you use this trait, you gain Temporary Health equal to your Strength."
     },
     {
         "name": "Agile Defence",

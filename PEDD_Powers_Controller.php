@@ -15,35 +15,6 @@ try {
     exit;
 }
 
-// Handle authentication requests
-if (isset($_GET['action'])) {
-    switch ($_GET['action']) {
-        case 'login':
-            $input = json_decode(file_get_contents('php://input'), true);
-            if (isset($input['username']) && isset($input['password'])) {
-                if ($auth->login($input['username'], $input['password'])) {
-                    echo json_encode(['message' => 'Login successful']);
-                } else {
-                    http_response_code(401);
-                    echo json_encode(['error' => 'Invalid username or password']);
-                }
-            } else {
-                http_response_code(400);
-                echo json_encode(['error' => 'Username and password are required']);
-            }
-            exit;
-
-        case 'logout':
-            $auth->logout();
-            echo json_encode(['message' => 'Logout successful']);
-            exit;
-
-        case 'check':
-            echo json_encode(['authenticated' => $auth->isAuthenticated(), 'username' => $auth->getUsername()]);
-            exit;
-    }
-}
-
 // Define the path to the JSON file
 $jsonFile = 'pedd-powers.json';
 

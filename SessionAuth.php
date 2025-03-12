@@ -16,17 +16,17 @@ class SessionAuth {
 
     // Load credentials from settings.json
     private function loadCredentials() {
-        $settingsFile = 'settings.json';
+        $settingsFilePath = 'settings.json';
 
-        if (!file_exists($settingsFile)) {
+        if (!file_exists($settingsFilePath)) {
             throw new Exception('Settings file not found.');
         }
 
-        if (!is_readable($settingsFile)) {
+        if (!is_readable($settingsFilePath)) {
             throw new Exception('Unable to read settings file. Check permissions.');
         }
 
-        $settings = json_decode(file_get_contents($settingsFile), true);
+        $settings = json_decode(file_get_contents($settingsFilePath), true);
 
         if (json_last_error() !== JSON_ERROR_NONE) {
             throw new Exception('Invalid JSON in settings file.');
