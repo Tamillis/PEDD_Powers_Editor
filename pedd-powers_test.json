@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Attack",
+        "tags": [
+            "melee",
+            "combat"
+        ],
+        "preqs": [
+            "Strength 1"
+        ],
+        "desc": "You strike the foe for the weapon's Damage, or 1 if using your fists."
+    },
+    {
+        "name": "Defend",
+        "tags": [
+            "combat",
+            "utility"
+        ],
+        "preqs": [
+            "Strength 1"
+        ],
+        "desc": "Add +2 to your Defence"
+    },
+    {
+        "name": "Test",
+        "tags": [
+            ""
+        ],
+        "preqs": [
+            ""
+        ],
+        "desc": "HA"
+    }
+]

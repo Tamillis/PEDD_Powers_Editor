@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEDD Powers Editor II</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        #ui-container {
+            width: calc(50% - 3.5rem);
+        }
+        
+        ul {
+            list-style: ' - ' inside !important;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100 p-8 box-border">
+    <div class="w-full relative">
+        <h1 class="text-3xl font-bold mb-8 text-center">PEDD Powers Editor II</h1>
+
+        <pre id="server-msg" class="hidden text-center"></pre>
+
+        <!-- Form for Create/Update -->
+        <div id="ui-container" class="fixed">
+            <section id="login-section" class="bg-white p-6 rounded-lg shadow-md mb-8 w-100">
+                <h2 class="text-xl font-semibold mb-4">Authentication</h2>
+                <div id="authForm" class="space-y-4">
+                    <input type="text" id="username" placeholder="Username" class="w-full px-3 py-2 border border-gray-300 rounded-md">
+                    <input type="password" id="password" placeholder="Password" class="w-full px-3 py-2 border border-gray-300 rounded-md">
+                    <button onclick="login()" class="bg-blue-500 text-white px-2 py-1 rounded-md hover:bg-blue-600">Login</button>
+                </div>
+                <p id="login-error-txt" class="text-red-500 hidden"></p>
+            </section>
+            <section id="logout-section" class="bg-white p-6 rounded-lg shadow-md mb-8 w-100 hidden flex">
+                <h2 id="auth-status" class="text-xl font-semibold mb-4 flex-grow"></h2>
+                <div class="space-y-4">
+                    <button onclick="logout()" class="bg-red-500 text-white px-2 py-1 rounded-md hover:bg-red-600">Logout</button>
+                </div>
+            </section>
+            <form id="pedd-power-form" class="bg-white p-6 rounded-lg shadow-md w-100 hidden">
+                <h2 class="text-xl font-semibold mb-4"><span id="subtitle">Add</span> Record</h2>
+                <div class="mb-4">
+                    <label for="name" class="block text-sm font-medium text-gray-700">Name (Unique Key)</label>
+                    <input type="text" id="name" name="name" required
+                        class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                </div>
+                <div class="mb-4">
+                    <label for="tag" class="block text-sm font-medium text-gray-700">Tags (Comma Separated)</label>
+                    <input type="text" id="tag" name="tag"
+                        class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                </div>
+                <div class="mb-4">
+                    <label for="preq" class="block text-sm font-medium text-gray-700">Prerequisites (Comma
+                        Separated)</label>
+                    <input type="text" id="preq" name="preq"
+                        class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                </div>
+                <div class="mb-4">
+                    <label for="desc" class="block text-sm font-medium text-gray-700">Description</label>
+                    <textarea id="desc" name="desc" rows="5" required
+                        class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"></textarea>
+                </div>
+                <div class="flex justify-end space-x-4">
+                    <button type="button" onclick="resetForm()"
+                        class="bg-gray-500 text-white px-4 py-2 rounded-md hover:bg-gray-600">Reset</button>
+                    <button type="submit"
+                        class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">Save</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="w-full grid grid-cols-2">
+            <div class="col-span-1"></div>
+            <!-- Display Records -->
+            <div id="records" class="bg-white p-6 rounded-lg shadow-md col-span-1">
+                <h2 class="text-xl font-semibold mb-4">Records</h2>
+                <div id="recordsList" class="space-y-4"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const get = id => document.getElementById(id);
+        const query = selector => Array.from(document.querySelectorAll(selector));
+
+        const API_URL = './PEDD_Powers.php';
+
+        // Initial check for authentication
+        checkAuth();
+        // Initial fetch of records
+        fetchRecords();
+        // Handle form submission (Create/Update)
+        get('pedd-power-form').addEventListener('submit', postRecord);
+
+        // Check authentication status
+        async function checkAuth() {
+            const response = await fetch(`${API_URL}?action=check`);
+            const data = await response.json();
+
+            if (data.authenticated) {
+                get('auth-status').textContent = `Logged in as ${data.username}`;
+                get('login-section').classList.add("hidden");
+                get('logout-section').classList.remove("hidden");
+                get('pedd-power-form').classList.remove("hidden");
+                query("#records button").forEach(btn => btn.disabled = false);
+
+            } else {
+                get('auth-status').textContent = '';
+                get('login-section').classList.remove("hidden");
+                get('logout-section').classList.add("hidden");
+                get('pedd-power-form').classList.add("hidden");
+                query("#records button").forEach(btn => btn.disabled = true);
+            }
+            showServerMsg(data);
+        }
+
+        // Log in
+        async function login() {
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            const response = await fetch(`${API_URL}?action=login`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ username, password })
+            });
+
+            if (response.ok) {
+                checkAuth();
+                get('login-error-txt').classList.add("hidden");
+                fetchRecords();
+            } else {
+                const error = await response.json();
+                get('login-error-txt').textContent = error.error;
+                get('login-error-txt').classList.remove("hidden");
+            }
+        }
+
+        // Log out
+        async function logout() {
+            const response = await fetch(`${API_URL}?action=logout`);
+            if (response.ok) {
+                checkAuth();
+            }
+        }
+
+        function getRecord(formData) {
+            return {
+                name: formData.get('name'),
+                tag: formData.get('tag').split(',').map(tag => tag.trim()),
+                preq: formData.get('preq').split(',').map(preq => preq.trim()),
+                desc: formData.get('desc')
+            };
+        }
+
+        // Reset the form
+        function resetForm() {
+            get('pedd-power-form').reset();
+            get('subtitle').innerText = "Add";
+            document.querySelector('button[type="submit"]').textContent = 'Save';
+        }
+
+        // Fetch and display all records
+        async function fetchRecords() {
+            const response = await fetch(API_URL, { method: 'GET' });
+            const data = await response.json();
+
+            const recordsList = get('recordsList');
+            recordsList.innerHTML = '';
+            for (const record of data) {
+                const recordDiv = document.createElement('div');
+                recordDiv.className = 'p-4 border border-gray-200 rounded-md flex gap-1 items-start';
+                recordDiv.innerHTML = `
+                    <div class="flex-grow record-row">
+                        <h3 class="font-bold">${record.name}</h3>
+                        <p class="text-sm text-gray-600"><span class="font-bold">Tags</span>: ${record.tag.join(', ')}</p>
+                        <p class="text-sm text-gray-600"><span class="font-bold">Prerequisites</span>: ${record.preq.join(', ')}</p>
+                        <p class="text-sm text-gray-600"><span class="font-bold">Description</span>:</p>
+                        <div class="text-sm text-gray-600 list-disc">${marked.parse(record.desc)}</div>
+                    </div>
+                    <button onclick="editRecord('${record.name}')" class="bg-yellow-500 text-white px-2 py-1 rounded-md hover:bg-yellow-600 disabled:bg-gray-100 disabled:text-gray-500">Edit</button>
+                    <button onclick="deleteRecord('${record.name}')" class="bg-red-500 text-white px-2 py-1 rounded-md hover:bg-red-600 disabled:bg-gray-50 disabled:text-gray-500">Delete</button>
+                    
+                `;
+                recordsList.appendChild(recordDiv);
+            }
+        }
+
+        async function postRecord(e) {
+            e.preventDefault();
+
+            const formData = new FormData(e.target);
+            const record = getRecord(formData);
+            console.log(record);
+            const method = document.querySelector('button[type="submit"]').textContent === 'Update' ? 'PUT' : 'POST';
+            const response = await fetch(API_URL, {
+                method,
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(record)
+            });
+
+            if (response.ok) {
+                resetForm();
+                fetchRecords();
+            }
+            const body = await response.json();
+            showServerMsg(body);
+        }
+
+        function showServerMsg(body) {
+            get("server-msg").innerText = 'Server Messages:';
+            for(let prop in body) get("server-msg").innerText += `\n${prop} - ${body[prop]}`;
+            get("server-msg").classList.remove("hidden");
+        } 
+
+        // Edit a record
+        async function editRecord(name) {
+            const response = await fetch(API_URL, { method: 'GET' });
+            const data = await response.json();
+            const record = data.filter(d => d.name == name)[0];
+
+            get('name').value = record.name;
+            get('tag').value = record.tag.join(', ');
+            get('preq').value = record.preq.join(', ');
+            get('desc').value = record.desc;
+            get('subtitle').innerText = "Update";
+            document.querySelector('button[type="submit"]').textContent = 'Update';
+
+            //scroll that element to top of page
+            let row = Array.from(document.querySelectorAll(".record-row")).filter(el => el.querySelector("h3").innerText == record.name)[0];
+
+            row.scrollIntoView({behavior: "smooth", block:"start"});
+        }
+
+        // Delete a record
+        async function deleteRecord(name) {
+            const response = await fetch(API_URL, {
+                method: 'DELETE',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ name })
+            });
+
+            if (response.ok) {
+                fetchRecords();
+            } else {
+                const error = await response.json();
+                alert(error.error);
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,2764 @@
+[
+    {
+        "name": "Action Surge",
+        "tag": [
+            "combat",
+            "utility"
+        ],
+        "preq": [
+            "Dexterity +1"
+        ],
+        "desc": "TEST\n\nYou can push yourself beyond your normal limits for a moment. After your Action, you can take one additional Action.\n\nOnce you use this Power, you must finish a Short Rest before you can use it again."
+    },
+    {
+        "name": "Adrenaline Rush",
+        "tag": [
+            "combat",
+            "movement",
+            "racial",
+            "tuskman"
+        ],
+        "preq": [
+            "Strength +1"
+        ],
+        "desc": "As a Bonus Action, you can move up to your Speed while an enemy can see or hear you. You can use this Power a number of times equal to your Strength, where you must finish a Long Rest before you can use it again. Whenever you use this trait, you gain Temporary Health equal to your Strength."
+    },
+    {
+        "name": "Agile Defence",
+        "tag": [
+            "combat",
+            "defensive"
+        ],
+        "preq": [
+            "Accuracy +1",
+            "Dexterity +1"
+        ],
+        "desc": "Your ability to precisely and rapidly control the twists and bends your body makes, makes you harder to hit. When not wearing medium or heavy armour or using a shield, your Evasion is replaced by your Agility (Accuracy + Dexterity) when calculating Defence."
+    },
+    {
+        "name": "Agonizing Blast",
+        "tag": [
+            "invocation"
+        ],
+        "preq": [
+            "Eldritch Blast cantrip",
+            "Pact Magic"
+        ],
+        "desc": "When you cast Eldritch Blast, add your Magic Statistic to the damage it deals on a hit."
+    },
+    {
+        "name": "Akimbo",
+        "tag": [
+            "combat",
+            "offensive",
+            "fighting-style"
+        ],
+        "preq": [
+            "Accuracy +1"
+        ],
+        "desc": "When wielding two Light Ranged Weapons and you make an Attack action with one, as a Bonus Action you can make an Attack with the other weapon. You do not add Accuracy to the damage roll of the second attack."
+    },
+    {
+        "name": "Ancestors of Stone",
+        "tag": [
+            "combat",
+            "damage-reduction",
+            "defensive",
+            "dwarf",
+            "racial",
+            "spell-like"
+        ],
+        "preq": [],
+        "desc": "As an Action you make your flesh turn as hard as stone. For 1 minute you Concentrate as if on a spell, and while concentrating you have resistance to non-magical physical damage and a +2 Bonus to Armour."
+    },
+    {
+        "name": "Aptitude",
+        "tag": [
+            "roll-effecting",
+            "universal",
+            "powerful"
+        ],
+        "preq": [
+            "After 6 Powers",
+            "Once every 6th Power"
+        ],
+        "desc": "The value of your Bonus is increased to +3. You can take this Power two more times, increasing your Bonus to +4 and then +5."
+    },
+    {
+        "name": "Arcane Aptitude",
+        "tag": [
+            "cantrip",
+            "dragonborn",
+            "elf",
+            "gnome",
+            "half-elf",
+            "goblinoid",
+            "human",
+            "racial",
+            "universal"
+        ],
+        "preq": [],
+        "desc": "You have a natural grasp of arcane magic and with only a little preparation, can have ready a plethora of minor magics.\n\nYou know one cantrip of your choice from the Arcane Sphere spell list which you can switch for a different Arcane Sphere cantrip after a Long Rest. Intelligence is your Magic Statistic for it.\n\nAdditionally, you learn Arcane spells at twice the usual rate."
+    },
+    {
+        "name": "Arcane Recovery",
+        "tag": [
+            "recovery",
+            "universal",
+            "utility"
+        ],
+        "preq": [
+            "Arcane Spellcasting"
+        ],
+        "desc": "You have learned to regain some of your magical energy by studying your spellbook. Once per day when you finish a Short Rest, you can choose expended Mana Reserve to recover. The Reserve can have a combined value that is equal to your highest available Magnitude, to a maximum of 6.\n\nFor example, if you have Mana III, you can recover up to three points of Reserve, such as three Magnitude I Reserve, or one Magnitude II Reserve and one Magnitude I Reserve, or one Magnitude III Reserve."
+    },
+    {
+        "name": "Arcane Spellcasting",
+        "tag": [
+            "spellcasting",
+            "universal"
+        ],
+        "preq": [
+            "Intelligence +1",
+            "A spellbook",
+            "Mana"
+        ],
+        "desc": "You are an arcane practitioner, a mage studied enough to manipulate mana into complex spells that allow you to bend reality. You keep a repertoire of spells in a carefully curated Spellbook that you Prepare Spells from each day. Intelligence is your Magic Statistic. You can use an Arcane Focus to cast your spells, and you can cast Ritual spells from your spellbook without preparing them first.\n\n**Spellbook** - You keep your spells in a spellbook, which you can Copy, Transcribe into and Invent spells with. See PEDD Magic for rules on how to use your spellbook.\n\n**Cantrips** - Additionally, you know three cantrips of your choice from the Arcane Sphere.\n\n**Preparing and Casting Spells** - You use your Reserve of Mana to cast spells. You prepare a list of arcane spells that are available for you to cast for the day. To do so, choose a number of spells from your spellbook equal to your Intelligence + your Bonus. The spells must be of a Magnitude that you have the ability to Cast. You can change your list of Prepared Spells when you finish a long rest. Preparing a new list of arcane spells requires time spent studying your spellbook and memorizing the incantations and gestures you must make to cast the spell: at least 1 minute per spell Magnitude for each spell on your list."
+    },
+    {
+        "name": "Arcane Ward",
+        "tag": [
+            "combat",
+            "defensive",
+            "temporary-health"
+        ],
+        "preq": [
+            "Arcane Spellcasting"
+        ],
+        "desc": "You can amply and redirect threads of your defensive magic around yourself for greater protection. Whenever you cast an Abjuration spell of Magnitude I or higher, you can simultaneously create a magical ward on yourself or an ally within 30ft. The ward gives Temporary Health equal to your Bonus + your Intelligence."
+    },
+    {
+        "name": "Archery",
+        "tag": [
+            "combat",
+            "offensive",
+            "fighting-style"
+        ],
+        "preq": [
+            "Accuracy +1"
+        ],
+        "desc": "You gain a +2 additional Bonus to attack rolls you make with Crossbows, Bows and Slings."
+    },
+    {
+        "name": "Armour Expert",
+        "tag": [
+            "combat",
+            "defensive"
+        ],
+        "preq": [
+            "Strength +1"
+        ],
+        "desc": "While you are wearing armour, you gain a +1 bonus to your Armour. This does not include Shields or Helmets."
+    },
+    {
+        "name": "Armour of Shadows",
+        "tag": [
+            "invocation"
+        ],
+        "preq": [
+            "Pact Magic",
+            "Mage Armour Spell"
+        ],
+        "desc": "You can cast Mage Armour on yourself at will, without spellcasting, expending your Stipend \/ Mana, or needing material components."
+    },
+    {
+        "name": "Artificer's Lore",
+        "tag": [
+            "background",
+            "skill",
+            "social"
+        ],
+        "preq": [
+            "History Skill"
+        ],
+        "desc": "Whenever you make a History check related to magical, alchemical, or technological items, your proficiency Bonus is considered instead to be Expertise."
+    },
+    {
+        "name": "Aspect of the Moon",
+        "tag": [
+            "invocation"
+        ],
+        "preq": [
+            "Pact Magic"
+        ],
+        "desc": "You can no longer sleep and can't be forced to sleep by any means. You do not suffer Exhaustion for not sleeping. To gain the benefits of a Long Rest, you can spend all 8 hours doing light activity, such as divining the night sky or keeping watch."
+    },
+    {
+        "name": "Bardic Inspiration",
+        "tag": [
+            "combat",
+            "social",
+            "utility"
+        ],
+        "preq": [
+            "Charisma +1"
+        ],
+        "desc": "You can inspire others through stirring words or music. To do so, you use your Bonus Action to choose one character other than yourself within 60ft of you who can hear you. That creature gains one Bardic Inspiration die, a d6.\n\nOnce within the next Short Rest, the character can roll the die and add the number rolled to one ability check, attack roll, or saving throw they make. The character can wait until after they roll the d20 before deciding to use the Bardic Inspiration die, but must decide before the GM says whether the roll succeeds or fails. Once the Bardic Inspiration die is rolled, it is lost. A character can have only one Bardic Inspiration die at a time.\n\nYou can use this Power a number of times equal to your Charisma. You regain any expended uses when you finish a Long Rest."
+    },
+    {
+        "name": "Beast Speech",
+        "tag": [
+            "invocation"
+        ],
+        "preq": [
+            "Pact Magic",
+            "Speak with Animals Spell"
+        ],
+        "desc": "You can cast Speak with Animals at will, without spellcasting, or expending your Stipend \/ Mana."
+    },
+    {
+        "name": "Beguiling Influence",
+        "tag": [
+            "invocation",
+            "skill"
+        ],
+        "preq": [
+            "Pact Magic"
+        ],
+        "desc": "You gain proficiency in the Deception and Persuasion skills. If you already had proficiency those skills, you gain Expertise instead.",
+        "skill": {
+            "core": [
+                "Deception^",
+                "Persuasion^"
+            ]
+        }
+    },
+    {
+        "name": "Blessed",
+        "tag": [
+            "cantrip",
+            "universal",
+            "utility"
+        ],
+        "preq": [
+            "Faith +1"
+        ],
+        "desc": "You learn two cantrips of your choice from the divine sphere. Faith is your Magic Statistic for them."
+    },
+    {
+        "name": "Blessings of Knowledge",
+        "tag": [
+            "miracle",
+            "skill"
+        ],
+        "preq": [
+            "Divine Domain"
+        ],
+        "desc": "In a moment of divine revelation, you learn two language Skills of your choice, also gaining Expertise with them. You also become Proficient and gain Expertise in your choice of two of the following skills: Arcana, History, Nature, or Religion. This is regardless of if you were Proficient with those skills or languages before.",
+        "skill": {
+            "core": [
+                [
+                    "Arcana*",
+                    "History*",
+                    "Nature*",
+                    "Religion*"
+                ],
+                [
+                    "Arcana*",
+                    "History*",
+                    "Nature*",
+                    "Religion*"
+                ]
+            ],
+            "knowledge": [
+                "Language (Any)*",
+                "Language (Any)*"
+            ]
+        }
+    },
+    {
+        "name": "Blind Fighting",
+        "tag": [
+            "combat",
+            "offensive",
+            "fighting-style"
+        ],
+        "preq": [
+            "Perception +1"
+        ],
+        "desc": "When in combat, you effectively have blindsight with a range of 10ft. Within that range, you can see anything that isn't behind total cover, even if you're Blinded, in darkness, or otherwise have your senses obscured. Moreover, you can see an invisible character within that range, unless the character successfully Hides from you."
+    },
+    {
+        "name": "Bountiful Luck",
+        "tag": [
+            "roll-effecting",
+            "universal",
+            "utility"
+        ],
+        "preq": [
+            "Lucky"
+        ],
+        "desc": "Your people have extraordinary luck, which you have learned to mystically lend to your companions whenever you see them falter. You're not sure how you do it, you just wish it, and it happens. Surely a sign of fortune's favor.\n\nWhen an ally you can see within 30ft of you rolls a 1 on the d20 for an attack roll, an ability check, or a saving throw, you can use your Bonus Action to let the ally reroll the die. The ally must use the new roll, even if it is a 1.\n\nWhen you use this Power, you can't use your Lucky racial trait before the end of your next turn."
+    },
+    {
+        "name": "Cantrip Cornucopia",
+        "tag": [
+            "invocation"
+        ],
+        "preq": [
+            "Pact Magic"
+        ],
+        "desc": "You learn another cantrip from your Patron's spell list, and one more cantrip of your choice from the list;\n\n- Chill Touch\n- Dancing Lights\n- Eldritch Blast\n- Gust\n- Infestation\n- Lightning Lure\n- Magic Stone\n- Mind Sliver\n- Minor Illusion\n- Prestidigitation\n- Sapping Sting\n- Shocking Grasp\n- Thaumaturgy\n- Vicious Mockery\n- Word of Decay"
+    },
+    {
+        "name": "Careful Spell",
+        "tag": [
+            "meta-magic"
+        ],
+        "preq": [
+            "Meta Magic",
+            "Reflex +1"
+        ],
+        "desc": "When you cast a spell that forces other characters to make a saving throw, you can protect some of those characters from the spell's full force. To do so, you spend 1 Magnitude I Reserve and choose a number of those characters up to your Spellcasting Stat. Chosen characters automatically succeed on their saving throws against the spell."
+    },
+    {
+        "name": "Cavalier",
+        "tag": [
+            "combat",
+            "utility",
+            "fighting-style",
+            "roll-effecting"
+        ],
+        "preq": [
+            "Reflex +1"
+        ],
+        "desc": "Adept at fighting from horseback, you gain the following benefits:\n\n- You have Advantage on saving throws made to avoid falling off your mount. If you fall off your mount and descend no more than 10ft and are not Incapacitated, you land on your feet instead of becoming Prone.\n- You do not get Disadvantage for shooting from an Unstable Platform.\n- Mounting or dismounting is a Bonus Action for you."
+    },
+    {
+        "name": "Celestial Patron",
+        "tag": [
+            "healing",
+            "patron"
+        ],
+        "preq": [
+            "Otherworldly Patron"
+        ],
+        "desc": "**Healing Light** - you gain the ability to channel celestial energy to heal wounds. You have a pool of d6s equal to your Bonus + your Faith that you regain after a Long Rest. As a Bonus Action, you can spend these d6s to heal one character you can see within 60ft of you with a word of healing power whispered into your ear by your Patron. The maximum number of dice you can spend at once equals your Faith (minimum of one die). Roll the dice you spend, add them together, and restore an amount of Health equal to the total.\n\n**Magic Statistic** - Faith. Faith for you is the following the orders, precepts and desires of your Patron. In addition, your maximum Faith is now 6, but your Faith can fall as low as -5 and is prone to fluctuating more rapidly than Divine Spellcasting spell casters (consult with your GM, but as a guide affect change at the end of each session).\n\n**Spell List** - Divine Sphere\n\n**Emblematic Spells** - In addition to the Divine Sphere spell list, you can choose from the following list.\n\n| Magnitude | Spells |\n| --- | --- |\n| Cantrip | Eldritch Blast (but radiant damage), Blade Ward |\n| I | Burning Hands, Faerie Fire (but white light), Sleep |\n| II | Flame Blade, Fortune's Favour, See Invisibility |\n| III | Call Lightning, Fear, Fly |\n| IV | Charm Monster, Compulsion, Sickening Radiance (but harsh white light) |\n| V | Contact Other Plane, Hold Monster, Wall of Light |\n| VI | Globe of Invulnerability, Mass Suggestion, Tasha's Otherwordly Guise (Upper Planes only) |\n| VII | Force Cage, Sequester |\n| VIII | Antipathy\/Sympathy, Power Word Stun |\n| IX | Wish |\n\n**Anathema** - Due to the limited nature of the Divine Sphere, the Celestial Patron finds none of its spells Anathema.",
+        "stat-max": {
+            "faith": 6
+        }
+    },
+    {
+        "name": "Close Quarters Shooter",
+        "tag": [
+            "combat",
+            "offensive",
+            "roll-effecting",
+            "fighting-style"
+        ],
+        "preq": [
+            "Accuracy +1",
+            "Dexterity +1"
+        ],
+        "desc": "When making a ranged attack while you are within 5ft of a hostile character, you do not have Disadvantage on the attack roll. Your ranged attacks ignore half cover and three-quarters cover against targets within 30ft of you. You have a +1 Bonus to attack rolls on ranged attacks."
+    },
+    {
+        "name": "Combat Expert",
+        "tag": [
+            "combat",
+            "utility"
+        ],
+        "preq": [
+            "Dexterity +RANK"
+        ],
+        "desc": "You can Engage one more enemy at a time, up to the maximum number possible for your Size. You can take this power 4 more times, for a total of 5. The Dexterity prerequisite increases by 1 each time."
+    },
+    {
+        "name": "Combat Wild Shape",
+        "tag": [
+            "combat",
+            "healing"
+        ],
+        "preq": [
+            "Wild Shape"
+        ],
+        "desc": "You gain the ability to use Wild Shape on your turn as a Bonus Action, rather than as an Action.\n\nAdditionally, while you are transformed by Wild Shape, you can use a Bonus Action to expend a Reserve of Mana to regain 1d8 Health per Magnitude of Mana expended. For example, if you expend a Reserve of Magnitude III, you regain 3d8 Health.",
+        "bonus-actions": [
+            "Wild Shape"
+        ]
+    },
+    {
+        "name": "Commander Tactics",
+        "tag": [
+            "combat",
+            "utility",
+            "focus"
+        ],
+        "preq": [
+            "Intelligence +1"
+        ],
+        "desc": "You gain the following Tactical Actions:\n\n- **Bait and Switch** - as an Attack or Action, when you're within 5ft of an Engaged ally character, you can spend 1 Focus to switch places with that character, provided you spend at least 5 ft of movement. This movement doesn't provoke an Attack of Opportunity. You are now Engaged with that ally's enemy, and any attack they were about to make on your ally is directed at yourself instead.\n- **Call the Shot** - As an Action, direct one of your allys to strike. Choose an ally who can see or hear you. That character can immediately make one weapon attack for free. You can choose to spend 1 Focus, and Call the Shot as a Bonus Action instead of an Action.\n- **Distract** - as a Bonus Action when you hit a character with a weapon attack, you can distract them, giving your allies an opening. The next Attack roll against the target this Round has Advantage."
+    },
+    {
+        "name": "Cunning Action",
+        "tag": [
+            "combat",
+            "movement",
+            "utility"
+        ],
+        "preq": [
+            "Dexterity +1"
+        ],
+        "desc": "Your quick thinking and agility allow you to move and act quickly. You can take the Discern, Disarm, Dodge, or Parry actions as Bonus Actions instead.",
+        "bonus-actions": [
+            "Discern",
+            "Dodge",
+            "Parry"
+        ]
+    },
+    {
+        "name": "Cursed",
+        "tag": [
+            "background",
+            "dragonborn",
+            "racial",
+            "roll-effecting",
+            "tuskman",
+            "universal"
+        ],
+        "preq": [],
+        "desc": "When you roll a 20 on an attack roll, ability check, or saving throw, you must reroll the die and use the new result, including if it is a 20. When this happens, you gain a Token of Misfortune.\n\nThankfully this misfortune has a habit of spreading, even to your enemies. You can spend a Token of Misfortune to turn one successful attack roll, skill check or saving throw of an enemy you can see within 60ft into a failure.\n\nAfter a Long Rest you have 2 Tokens of Misfortune, losing any from before."
+    },
+    {
+        "name": "Danger Sense",
+        "tag": [
+            "background",
+            "combat",
+            "exploration",
+            "roll-effecting",
+            "sense",
+            "utility"
+        ],
+        "preq": [
+            "Perception +1"
+        ],
+        "desc": "You gain an uncanny sense of when things nearby aren't as they should be, giving you an edge when you dodge away from danger. You have Advantage on Reflex saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can't be blinded, deafened, or incapacitated."
+    },
+    {
+        "name": "Darkvision",
+        "tag": [
+            "dragonborn",
+            "elf",
+            "exploration",
+            "gnome",
+            "half-elf",
+            "racial",
+            "sense",
+            "tuskman",
+            "utility"
+        ],
+        "preq": [],
+        "desc": "You can see in dim light within 60ft of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of grey."
+    },
+    {
+        "name": "Deepened Ki",
+        "tag": [
+            "combat",
+            "ki",
+            "utility"
+        ],
+        "preq": [
+            "After 6 Powers",
+            "Every 4th Power",
+            "Ki"
+        ],
+        "desc": "Increase the number of ki points you have access to by your Bonus. Your Ki save DC is also increased by your Bonus. If your Bonus is increased at some other point, remember to update the Ki gained from this Power. You can take this Power two more times for a total of 3 times, increasing your Ki and Ki Save DC by your Bonus each time."
+    },
+    {
+        "name": "Determination",
+        "tag": [
+            "human",
+            "racial",
+            "roll-effecting",
+            "universal"
+        ],
+        "preq": [],
+        "desc": "When you make an attack roll, an ability check, or a saving throw, you can do so with Advantage. Once you use this Power, you can't use it again until you finish a Short Rest."
+    },
+    {
+        "name": "Devil's Sight",
+        "tag": [
+            "invocation"
+        ],
+        "preq": [
+            "Pact Magic"
+        ],
+        "desc": "You can see normally in darkness, both magical and nonmagical, as if it were bright light to a distance of 120ft."
+    },
+    {
+        "name": "Disciple of Life",
+        "tag": [
+            "healing",
+            "miracle"
+        ],
+        "preq": [
+            "Divine Domain"
+        ],
+        "desc": "Your healing spells are miraculously more effective. Whenever you use a spell of Magnitude 1 or higher to restore Health to a Character, the Character regains additional Health equal to 2 + the spell's Magnitude. You do not need to Channel Divinity to benefit from this Miracle."
+    },
+    {
+        "name": "Discovery",
+        "tag": [
+            "background",
+            "social",
+            "exploration"
+        ],
+        "preq": [],
+        "desc": "From the quiet seclusion of extended hermitage, the sudden revelation of a cosmic insight, the convalescence of years of studies or other such momentous personal event, you gain access to a unique and powerful discovery. The exact nature of this revelation depends on the nature of your seclusion. It might be a great truth about the cosmos, God, the ethereal beings of the psychic realm, or the forces of nature. It could be a site that no one else has ever seen. You might have uncovered a fact that has long been forgotten, or unearthed some relic of the past that could rewrite history. Work with your GM to determine the details of your discovery and its impact on the campaign."
+    },
+    {
+        "name": "Distant Spell",
+        "tag": [
+            "meta-magic"
+        ],
+        "preq": [
+            "Fortitude +1",
+            "Meta Magic"
+        ],
+        "desc": "When you cast a spell that has a range of 5ft or greater, you can spend 1 Magnitude I Reserve to double the range of the spell. When you cast a spell that has a range of touch, you can spend 1 Magnitude I Reserve to make the range of the spell 30ft."
+    },
+    {
+        "name": "Divine Domain",
+        "tag": [
+            "resource",
+            "spellcasting",
+            "universal",
+            "background"
+        ],
+        "preq": [
+            "Divine Spellcasting",
+            "Once every 4th Power"
+        ],
+        "desc": "You immerse yourself in exemplifying the ways of your Faith, and your piety is rewarded with the following:\n\n**Channel Divinity** - You gain the ability to channel divine energy directly from your deity, using that energy to fuel Miracles. You start with 'Turn Undead' and one Miracle Power of your choice.\n\nSome Miracles require you to 'Channel Divinity' as an Action or Bonus Action. You can Channel Divinity a number of times equal to your Faith, to a minimum of once. You must finish a Short Rest to regain your uses of Channel Divinity.\n\nSome Miracles require saving throws. When you use such an effect from this class, the DC equals your Divine Spellcasting Save DC.\n\n**Turn Undead** \u2013 As an Action, you present your holy symbol and speak a prayer censuring the undead. Each undead that can see or hear you within 30ft of you must make a Willpower saving throw. If an undead fails its saving throw, it is turned for 1 minute or until it takes any damage.\n\nA turned character must spend its Rounds trying to use the Move action to get as far away from you as it can, and it can't willingly move to a space within 30ft of you. If it cannot, it uses the Dodge action.\n\n**Domain Spells** - Choose 2 Divine Sphere spells you have the Magnitude to cast that represent your faith, they are now Innate Spells for you and no longer count against your number of prepared spells.\n\nWhen you take this Power again, you can choose an additional Miracle Power, and Domain Spells.\n\n"
+    },
+    {
+        "name": "Divine Sense",
+        "tag": [
+            "exploration",
+            "sense",
+            "social"
+        ],
+        "preq": [
+            "Faith +1"
+        ],
+        "desc": "The presence of strong evil registers on your senses like a noxious odor, and powerful good rings like heavenly music in your ears. As an Action, you can open your awareness to detect such forces. Until the end of your next turn, you know the location of any celestial, fiend, or undead within 60ft of you that is not behind total cover. You know the type (celestial, fiend, or undead) of any being whose presence you sense. Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as if with the Hallow spell.\n\nYou can use this feature a number of times equal to your Charisma. You regain all expended uses after a Long Rest."
+    },
+    {
+        "name": "Divine Smite",
+        "tag": [
+            "combat",
+            "offensive",
+            "spellcasting"
+        ],
+        "preq": [
+            "Divine Spellcasting"
+        ],
+        "desc": "When you hit a creature with a melee weapon attack, you can expend one Reserve of Mana to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is 2d8 for 1 Mana, plus 1d8 for each further point of Mana, to a maximum of 5d8. The damage increases by 1d8 if the target is an undead or a fiend, to a maximum of 6d8."
+    },
+    {
+        "name": "Divine Spellcasting",
+        "tag": [
+            "spellcasting",
+            "universal"
+        ],
+        "preq": [
+            "Faith +0",
+            "Mana"
+        ],
+        "desc": "As a conduit for divine power, you can cast divine spells. You must have at least 0 Faith to learn and use this Power. If your Faith dips below 0, you no longer benefit from this Power or any that requires it until your Faith is restored. Faith is your Magic Statistic for your spells. You can brandish a holy symbol in lieu of material components that don't have a gold cost for your Divine spells.\n\n**Cantrips** - You know three cantrips of your choice from the Divine Sphere spell list.\n\n**Prepared Spells** - You prepare the list of Divine Sphere spells that are available for you to cast that day, choosing freely from the Divine Sphere spell list. When you do so, choose a number of spells equal to your Bonus + your Faith. The spells must be of a Magnitude for which you have Mana Reserve. You can change your list of prepared spells when you finish a Long Rest. Preparing a new list of Divine Sphere spells requires time spent in prayer and meditation: at least 1 minute per Magnitude for each spell on your list."
+    },
+    {
+        "name": "Draconic Affinity",
+        "tag": [
+            "combat",
+            "damage-reduction",
+            "defensive",
+            "offensive"
+        ],
+        "preq": [
+            "Draconic Ancestry",
+            "Draconic Bloodline",
+            "Occult Spellcasting"
+        ],
+        "desc": "When you cast a spell that deals damage of the type associated with your Draconic Ancestry, add your Magic Statistic to one damage roll of that spell. At the same time, you can spend 1 Magnitude I Reserve, in addition to the Reserve spent on the spell, to gain Resistance to that damage type for 1 hour.\n\nIf your ancestry is one of the following, your damage type is:\n- Brass - Fire\n- Bronze - Lightning\n- Copper - Acid\n- Gold - Fire\n- Silver - Cold"
+    },
+    {
+        "name": "Draconic Bloodline",
+        "tag": [
+            "health",
+            "sorcerous-origin"
+        ],
+        "preq": [
+            "Sorcerous Origin"
+        ],
+        "desc": "Your innate magic comes from draconic magic that was mingled with your blood or that of your ancestors. Most often, sorcerers with this origin trace their descent back to a mighty sorcerer of ancient times who made a bargain with a dragon or who might even have claimed a dragon parent. You gain the following benefits:\n\n- You gain the Draconic Ancestry feature of the Dragonborn race, or a Dragonborn racial Power that you have the prerequisites for.\n- As magic flows through your body, it causes physical traits of your dragon ancestors to emerge. Your Health increases by 2 and increases by 2 again whenever you gain Health from another Power.\n- Parts of your skin are covered by a thin sheen of dragon-like scales. You have Natural Armour of 2."
+    },
+    {
+        "name": "Draconic Language",
+        "tag": [
+            "dragonborn",
+            "racial",
+            "roll-effecting",
+            "social"
+        ],
+        "preq": [],
+        "desc": "You have an innate and full understanding of the language of Dragons. You are able to converse in Draconic, and as the language of creation, every utterence has greater weight, when you put your will behind it. Once per Short Rest, you can make a Charisma check with Advantage. When you do so, you speak Draconic, and yet any who hear you understand what it is you say."
+    },
+    {
+        "name": "Draconic Resistance",
+        "tag": [
+            "combat",
+            "damage-reduction",
+            "defensive",
+            "dragonborn",
+            "exploration",
+            "racial"
+        ],
+        "preq": [
+            "Draconic Ancestry"
+        ],
+        "desc": "You have resistance to the damage type associated with your ancestry."
+    },
+    {
+        "name": "Draconic Warding",
+        "tag": [
+            "combat",
+            "damage-reduction",
+            "defensive"
+        ],
+        "preq": [
+            "After 5 Powers",
+            "Draconic Resistance",
+            "Fortitude +1"
+        ],
+        "desc": "As an Action, you can channel your draconic energy to protect yourself. Until the start of the next Round, you become Immune to the damage type associated with your Draconic Ancestry. You can use this Power a number of times equal to your Fortitude per Long Rest."
+    },
+    {
+        "name": "Dragon Fear",
+        "tag": [
+            "combat",
+            "crowd-control",
+            "dragonborn",
+            "racial",
+            "social"
+        ],
+        "preq": [
+            "Draconic Ancestry"
+        ],
+        "desc": "When angered, you radiate menace. Instead of exhaling destructive energy, you can expend a use of your Draconic Ancestry's breath weapon to roar, forcing each character of your choice within 30ft of you to make a Willpower saving throw vs 8 + your Bonus + your Charisma. A target automatically succeeds on the save if it can't hear or see you. On a failed save, a target becomes Frightened for 1 minute. If the frightened target takes any damage, it can repeat the saving throw, ending the effect on itself on a success."
+    },
+    {
+        "name": "Dragon Hide",
+        "tag": [
+            "combat",
+            "defensive",
+            "dragonborn",
+            "offensive",
+            "racial"
+        ],
+        "preq": [],
+        "desc": "You have scales and claws reminiscent of your draconic ancestors. You gain the following benefits:\n\n- Your scales are hardened. You gain Natural Armour of 4.\n- You can grow retractable claws from the tips of your fingers. Extending or retracting the claws requires no Action. The claws are natural weapons. If you hit with them, you deal slashing damage equal to 1d4 + your Strength."
+    },
+    {
+        "name": "Dragon Wings",
+        "tag": [
+            "dragonborn",
+            "exploration",
+            "movement",
+            "racial"
+        ],
+        "preq": [],
+        "desc": "You have draconic wings. With your wings, you have a flying speed of 20ft if you aren't wearing heavy armor and aren't exceeding your carrying capacity."
+    },
+    {
+        "name": "Drow High Magic",
+        "tag": [
+            "cantrip",
+            "exploration",
+            "spellcasting"
+        ],
+        "preq": [
+            "Charisma +1",
+            "Drow Magic"
+        ],
+        "desc": "You learn more of the magic typical of dark elves. You learn the Hunter's Mark spell and can cast once without expending Mana at Magnitude III. You also learn the Hold Person and Dispel Magic spells, each of which you can cast once without expending Mana at their lowest Magnitude. You regain the ability to cast these spells in this way when you finish a Long Rest. Charisma is your Magic Statistic for these spells."
+    },
+    {
+        "name": "Drow Magic",
+        "tag": [
+            "background",
+            "cantrip",
+            "elf",
+            "exploration",
+            "half-elf",
+            "racial",
+            "spellcasting"
+        ],
+        "preq": [],
+        "desc": "You learn the magic of the raiders of the dark places. You learn the Dancing Lights cantrip. You also learn the Faerie Fire and Darkness spells, each of which you can cast once without expending Mana. You regain the ability to cast these two spells in this way when you finish a Long Rest. Charisma is your Magic Statistic for these spells."
+    },
+    {
+        "name": "Druidic Apprentice",
+        "tag": [
+            "cantrip",
+            "spellcasting",
+            "utility"
+        ],
+        "preq": [
+            "Nature"
+        ],
+        "desc": "You learn two cantrips of your choice from the nature sphere. Verdance is your Magic Statistic for these spells, as detailed in the [Verdance Table](\/pedd\/magic#verdance-table)."
+    },
+    {
+        "name": "Duellist",
+        "tag": [
+            "combat",
+            "offensive",
+            "fighting-style"
+        ],
+        "preq": [
+            "Dexterity +1"
+        ],
+        "desc": "When wielding a one-handed melee weapon or a pistol, and no other weapons, you gain a +2 Bonus to damage rolls."
+    },
+    {
+        "name": "Dwarven Toughness",
+        "tag": [
+            "dwarf",
+            "health",
+            "racial",
+            "stat",
+            "universal"
+        ],
+        "preq": [],
+        "desc": "Your Health maximum increases by 2, and it increases by 2 again for every Power that increases Health."
+    },
+    {
+        "name": "Eldritch Mind",
+        "tag": [
+            "invocation",
+            "roll-effecting"
+        ],
+        "preq": [
+            "Pact Magic",
+            "Great Old One Patron"
+        ],
+        "desc": "You have Advantage on Fortitude saving throws that you make to maintain your concentration on a spell."
+    },
+    {
+        "name": "Eldritch Sight",
+        "tag": [
+            "invocation"
+        ],
+        "preq": [
+            "Pact Magic"
+        ],
+        "desc": "You can cast Detect Magic at will, without spellcasting, expending your Stipend \/ Mana, or needing material components."
+    },
+    {
+        "name": "Eldritch Spear",
+        "tag": [
+            "invocation"
+        ],
+        "preq": [
+            "Eldritch Blast cantrip",
+            "Pact Magic"
+        ],
+        "desc": "When you cast eldritch blast, its range is 300ft."
+    },
+    {
+        "name": "Elven Accuracy",
+        "tag": [
+            "combat",
+            "elf",
+            "half-elf",
+            "offensive",
+            "racial",
+            "roll-effecting"
+        ],
+        "preq": [],
+        "desc": "The accuracy of elves is legendary, especially that of elf archers and spellcasters. You have uncanny aim with attacks that rely on precision rather than brute force. Once per Short Rest when you miss with a ranged weapon attack or ranged spell, you can re-roll and must keep the new roll."
+    },
+    {
+        "name": "Empowered Spell",
+        "tag": [
+            "meta-magic"
+        ],
+        "preq": [
+            "Meta Magic",
+            "Willpower +1"
+        ],
+        "desc": "When you roll damage for a spell, you can spend 1 Magnitude I Reserve to reroll a number of the damage dice up to your Spellcasting Stat. You must use the new rolls."
+    },
+    {
+        "name": "Escape Artist",
+        "tag": [
+            "racial",
+            "goblinoid",
+            "combat",
+            "movement"
+        ],
+        "preq": [
+            "Dexterity +1"
+        ],
+        "desc": "You can take the Hide action as a bonus action on each of your turns."
+    },
+    {
+        "name": "Everchanging Nature",
+        "tag": [
+            "cantrip",
+            "elf",
+            "gnome",
+            "racial",
+            "spell-like",
+            "universal"
+        ],
+        "preq": [],
+        "desc": "Your arcane nature grants you spell-like abilities as if you know the Prestidigitation cantrip. Additionally, after your 6th Power, you gain the ability to effectively cast the Absorb Elements spell at Magnitude II once with this Power and regain the ability to do so when you finish a Long Rest. After your 12th Power, you can effectively cast the Alter Self spell once with this Power and regain the ability to do so when you finish a Long Rest. Intelligence is your effective Magic Statistic for these Powers."
+    },
+    {
+        "name": "Expanded Repertoire",
+        "tag": [
+            "invocation"
+        ],
+        "preq": [
+            "Pact Magic"
+        ],
+        "desc": "Your Patronage spells increases to your Expertise + Magic Statistic (to a minimum of 2), and you may prepare your list of Patronage Innate Spells anew as if completing a Downtime Activity to do so."
+    },
+    {
+        "name": "Expertise",
+        "tag": [
+            "skill",
+            "universal"
+        ],
+        "preq": [
+            "After 3 Powers",
+            "Once every 3rd Power",
+            "Intelligence +1"
+        ],
+        "desc": "Choose two skills with which you are proficient. You now have Expertise in those skills.\n\nIf you take this Power again, you choose two others of your proficienct Skills to gain Expertise in.",
+        "skill": [
+            "Current^",
+            "Current^"
+        ]
+    },
+    {
+        "name": "Extended Spell",
+        "tag": [
+            "meta-magic"
+        ],
+        "preq": [
+            "Fortitude +1",
+            "Meta Magic"
+        ],
+        "desc": "When you cast a spell that has a duration of 1 minute or longer, you can spend 1 Magnitude I Reserve to double its duration, to a maximum duration of 24 hours."
+    },
+    {
+        "name": "Extra Attack",
+        "tag": [
+            "combat",
+            "offensive",
+            "powerful"
+        ],
+        "preq": [
+            "Accuracy +3 OR Dexterity +3",
+            "After 6 Powers"
+        ],
+        "desc": "You can attack twice, instead of once, whenever you take the Attack Action on your turn to make a weapon attack that uses Accuracy (if you have +3 in Accuracy or more), or Dexterity (if you have +3 in Dexterity or more)."
+    },
+    {
+        "name": "Extra Childhood Language",
+        "tag": [
+            "half-elf",
+            "human",
+            "racial",
+            "social",
+            "halfling",
+            "tuskman"
+        ],
+        "preq": [],
+        "desc": "You were raised in an environment that required you to become bilingual, and you've gained an aptitude for languages. You know one more Childhood Language, and you learn other languages at twice the usual rate.",
+        "skill": [
+            "Languages (one)"
+        ]
+    },
+    {
+        "name": "Extra Language",
+        "tag": [
+            "social",
+            "skill"
+        ],
+        "preq": [],
+        "desc": "You study vocabulary lists, unpick grammar and drill pronunciation, through academic or immersive methods, and learn another language. You gain Proficiency in the Lanuages (one) Skill, choosing a language you do not already have proficiency in. Additionally, learning languages now takes less time for you. You can only take this Power once.",
+        "skill": [
+            "Languages (one)"
+        ]
+    },
+    {
+        "name": "Eyes of the Rune Keeper",
+        "tag": [
+            "invocation"
+        ],
+        "preq": [
+            "Pact Magic"
+        ],
+        "desc": "You can read all writing and you are immune to Psychic damage from memetic hazards."
+    },
+    {
+        "name": "Favoured Enemy",
+        "tag": [
+            "combat",
+            "exploration",
+            "roll-effecting",
+            "skill",
+            "utility"
+        ],
+        "preq": [
+            "Charisma +1"
+        ],
+        "desc": "You have significant experience studying, tracking, hunting, and even talking to a certain type of enemy. Choose a group of favoured enemies:\n\n - Outsiders - aberrations, celestials, constructs, demons, fiends, jurors and sprites\n - Unnatural Creatures - elementals, fell, fey, machines, monstrosities and undead\n - Natural Creatures - beasts, oozes and plants (funghi are 'plants')\n - Legendary Creatures - dragons and giants\n - Two races of Humanoid - such as 'gnolls and orcs', or 'elves and humans'\n\nYou gain your Bonus to damage rolls with weapon attacks against characters of the chosen type. Additionally, you have Advantage on Survival checks to track your favoured enemies, Observation checks to spot your favoured enemies when they're Hidden, as well as on any Knowledge skill checks to recall information about them.\n\nWhen you gain this Power, your studies in the language of choice spoken by your favoured enemies (or reasonable alternative) comes to fruition and you become fluent in it. You gain proficiency in that language skill.\n\nYou can take this Power two more times, choosing two further enemy types and a language each time.",
+        "skill": [
+            "Languages (one)"
+        ]
+    },
+    {
+        "name": "Fey Ancestry",
+        "tag": [
+            "exploration",
+            "gnome",
+            "half-elf",
+            "racial",
+            "roll-effecting",
+            "social"
+        ],
+        "preq": [],
+        "desc": "By ancient decree, your blood has been severed from the realm of dreams and cannot sleep. You have Advantage on saving throws against being charmed, and magic can't put you to sleep."
+    },
+    {
+        "name": "Fey Teleportation",
+        "tag": [
+            "combat",
+            "elf",
+            "movement",
+            "racial",
+            "spellcasting",
+            "half-elf"
+        ],
+        "preq": [
+            "Fey Ancestry"
+        ],
+        "desc": "Drawing on your fey ancestry, you can momentarily stride through the Feywild to shorten your path from one place to another. You learn the Misty Step spell and can cast it once without expending Mana. You regain the ability to cast it in this way when you finish a Short Rest."
+    },
+    {
+        "name": "Field Alchemy",
+        "tag": [
+            "combat",
+            "utility"
+        ],
+        "preq": [
+            "Intelligence +1",
+            "Alchemy Skill"
+        ],
+        "desc": "You are an expert at manipulating alchemy for use in combat and in the field.\n\n**Formula Book** - An alchemist keeps meticulous formulas for every item they can create. You have a book of formulas. This formula book contains the formulas for four low-grade alchemical items of your choice. You can copy formula you find into your formula book, spending 50gp per grade on the necessary experimentation and resources. If you take this power again, you invent 2 new formula of your choice including those of a grade above what you already have, and add them directly to your book.\n\n **Field Alchemy** - You've learned how to quickly and reliably produce alchemical products even while out in the field. At the end of a Long Rest, you spend some time to create unstable alchemical items that can be used over the course of the day, and you ignore material requirements. Each item must be in your formula book. These items remain potent for 24 hours or until your next Long Rest, whichever comes first, unless the item has an even shorter shelf life, in which case that is kept.\n\nYou can Craft a number of alchemical items whose grade totals up to 4 + your Intelligence. If you take this Power again, add 4 to this value.\n\n**Acid Vial** - In addition to your formulas and Field Alchemy, you can prepare and throw the alchemical item 'Acid Vial' as an Attack Action. This tiny glass flask contains volatile chemicals that can be used offensively in a pinch. The glass vial, when thrown like a bomb, deals 1d6 acid damage to a target within 20ft, or 60ft at Disadvantage, and 1 Scatter acid damage to any character within 5ft of the target if the attack roll would hit them."
+    },
+    {
+        "name": "Fiendish Vigour",
+        "tag": [
+            "healing",
+            "invocation"
+        ],
+        "preq": [
+            "False Life Spell",
+            "Pact Magic",
+            "Fiend Patron"
+        ],
+        "desc": "You can cast False Life on yourself at will at Magnitude I, without spellcasting, expending your Stipend \/ Mana, or needing material components, as a 1 minute ritual involving blood letting, consumption of raw meat or other fiendish activity. You gain 10 Temporary Health, instead of 1d4 + 4."
+    },
+    {
+        "name": "Finder's High Magic",
+        "tag": [
+            "exploration",
+            "spell-like",
+            "spellcasting"
+        ],
+        "preq": [
+            "Finder's Magic",
+            "Perception +2"
+        ],
+        "desc": "You learn the Locate Animals or Plants and Locate Creature spells, each of which you can cast once without expending Mana at their lowest Magnitude. You regain the ability to cast these spells in this way when you finish a Long Rest. Perception is your Magic Statistic for these spells. Additionally, once per Long Rest you can divine a location as if you were casting the Scrying spell, see it for details."
+    },
+    {
+        "name": "Finder's Magic",
+        "tag": [
+            "background",
+            "combat",
+            "exploration",
+            "offensive",
+            "spellcasting",
+            "utility"
+        ],
+        "preq": [
+            "Perception +1"
+        ],
+        "desc": "You learn the Hunter's Mark and Locate Object spells that you can cast without expending Mana. Once you cast either spell with this trait, you can't cast that spell again until you finish a Long Rest. Perception is your Magic Statistic for these spells."
+    },
+    {
+        "name": "Fleet of Foot",
+        "tag": [
+            "combat",
+            "elf",
+            "exploration",
+            "movement",
+            "racial",
+            "halfling",
+            "half-elf",
+            "goblinoid"
+        ],
+        "preq": [],
+        "desc": "By foot, claw or wing, you're swifter than others. Increase your Speed by 5ft and your Travel Speed by 800 yards.",
+        "stat-change": {
+            "speed": 5
+        }
+    },
+    {
+        "name": "Force of Will",
+        "tag": [
+            "invocation",
+            "powerful"
+        ],
+        "preq": [
+            "After 3 Powers",
+            "Once every 4th Power",
+            "Pact Magic"
+        ],
+        "desc": "The Magnitude of your Stipend increaes by 1 to a maximum of Magnitude V. All your Stiped spell casts must be at the maximum Magnitude"
+    },
+    {
+        "name": "Foresighted Defence",
+        "tag": [
+            "combat",
+            "defensive"
+        ],
+        "preq": [
+            "Intelligence +1",
+            "Perception +1"
+        ],
+        "desc": "Your ability to read and predict your foes makes you harder to hit. When not wearing medium or heavy armour or using a shield, your Evasion is replaced by your Foresight (Perception + Intelligence) when calculating Defence."
+    },
+    {
+        "name": "Gaze of Two Minds",
+        "tag": [
+            "invocation",
+            "sense"
+        ],
+        "preq": [
+            "Pact Magic"
+        ],
+        "desc": "You can use your Action to touch a willing humanoid and perceive through its senses until the end of the next Round. As long as the character is on the same plane of existence as you, you can use your Action on subsequent Rounds to maintain this connection, extending the duration until the end of the next Round. While perceiving through the other character's senses, you benefit from any special senses possessed by that character, and you are blinded and deafened to your own surroundings."
+    },
+    {
+        "name": "Grappler",
+        "tag": [
+            "combat",
+            "offensive",
+            "background",
+            "fighting-style"
+        ],
+        "preq": [
+            "Dexterity +1"
+        ],
+        "desc": "You've developed the skills necessary to excel in close-quarters grappling. You gain the following benefits:\n\n- When you hit a character with an Unarmed or Improvised Strike, you can use a Bonus Action to attempt to Grapple the target.\n- You can use any non-Heavy weapon to attack the Character you are grappling\n- You have Advantage on attack rolls against a character you are grappling.\n- You can use your Action to try to Stun the character grappled by you. To do so, make another grapple check. If you succeed, they are Stunned for the rest of the Round."
+    },
+    {
+        "name": "Grasp of Hadar",
+        "tag": [
+            "invocation"
+        ],
+        "preq": [
+            "Eldritch Blast cantrip",
+            "Pact Magic"
+        ],
+        "desc": "Once per Round when you hit a character with your Eldritch Blast, you can move that character in a straight line 10ft in a direction of your choice."
+    },
+    {
+        "name": "Great Old One Patron",
+        "tag": [
+            "patron"
+        ],
+        "preq": [
+            "Otherworldly Patron"
+        ],
+        "stat-change": {
+            "intelligence": 1,
+            "charisma": -1
+        },
+        "stat-max": {
+            "intelligence": 6
+        },
+        "desc": "**Awakened Mind** - Your alien knowledge gives you the ability to touch the minds of other characters. You can telepathically speak to any character you can see within 30ft of you. You need to share a language with the character for it to understand your telepathic utterances, but you don't need to share a language to share emotions, images and impressions. Additionally, your maximum Intelligence is now 6, and your Intelligence increases by 1 but your Charisma decreases by 1 (to a minimum of -3).\n\n**Spell Affinity** - If you take the Pact Magic Power, Intelligence is your Magic Statistic for your spells and you use the Arcane Sphere spell list.\n\n**Emblematic Spells** - In addition to the Arcane Sphere spell list, you can choose from the following list.\n\n| Magnitude | Spells                                       |\n| --------- | -------------------------------------------- |\n| Cantrip   | Eldritch Blast, Vicious Mockery              |\n| I         | Arms of Hadar, Dissonant Whispers            |\n| II        | Enthrall, Immovable Object                   |\n| III       | Conjure Barrage, Hunger of Hadar             |\n| IV        | Compulsion, Gravity Sinkhole, Shadow of Moil |\n| V         | Awaken, Destructive Wave                     |\n| VI        | Gravity Fissure, Primordial Ward             |\n| VII       | Tether Essence                               |\n| VIII      | Dark Star, Reality Break                     |\n| IX        | Ravenous Void                                |\n\n**Anathema** - Spells from the Arcane Sphere unavailable to you.\n\n| Magnitude | Spells                                     |\n| --------- | ------------------------------------------ |\n| Cantrip   |Friends                                    |\n| I         | Cure Wounds, Protection from Good and Evil |\n| II        | Aid, Lesser Restoration                    |\n| III       | Catnap, Revivify                           |\n| IV        | Fabricate, Summon Construct                |\n| V         | Dawn, Greater Restoration                  |\n| VI        | Sunbeam                                    |\n| VII       | Sequester                                  |\n| VIII      | Sunburst                                   |\n| IX        | Wish                                       |"
+    },
+    {
+        "name": "Great Weapon Fighting",
+        "tag": [
+            "combat",
+            "offensive"
+        ],
+        "preq": [
+            "Strength +1"
+        ],
+        "desc": "When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit."
+    },
+    {
+        "name": "Greater Breath Weapon",
+        "tag": [
+            "combat",
+            "offensive",
+            "racial",
+            "dragonborn"
+        ],
+        "preq": [
+            "Draconic Ancestry"
+        ],
+        "desc": "You were born with a deeper connection to your draconic ancestry. Your Breath Weapon gains the following improvements:\n\n- You do an additional 1d10 damage, if your Breath Weapon does damage\n- The DC is calculated by 8 + your Fortitude + your Expertise\n- The area, if a 5ft by 30ft line, is now a 5ft by 45ft line, or if a 15ft cone, is now a 20ft cone"
+    },
+    {
+        "name": "Green Laird's Gift",
+        "tag": [
+            "invocation"
+        ],
+        "preq": [
+            "Archfey Patron",
+            "Pact Magic",
+            "combat",
+            "healing"
+        ],
+        "desc": "The Green Laird oversees a verdant realm of everlasting summer. Your soul is linked to their power. Whenever you regain Health from magic, you treat any dice rolled to determine the amount of Health you regain as having rolled their maximum value."
+    },
+    {
+        "name": "Grim Harvest",
+        "tag": [
+            "combat",
+            "healing"
+        ],
+        "preq": [
+            "Mana"
+        ],
+        "desc": "You gain the ability to reap life energy from beasts, dragons, fell, fey, giants, lycanthropes, monstrosities, oozes, or plants you kill with your spells. Once per turn when you kill one or more of these characters with a spell of Magnitude I or higher, you regain Health equal to twice the spell's Magnitude, or three times its Magnitude if the spell belongs to the School of Necromancy."
+    },
+    {
+        "name": "Grudge Bearer",
+        "tag": [
+            "background",
+            "combat",
+            "dwarf",
+            "exploration",
+            "racial",
+            "roll-effecting",
+            "utility",
+            "tuskman"
+        ],
+        "preq": [],
+        "desc": "You have a deep hatred for a particular kind of creature. Choose your foes, a type of creature to bear the burden of your wrath: aberrations, beasts, celestials, constructs, dragons, demons, elementals, fell, fey, fiends, giants, lycanthropes, monstrosities, oozes, plants, sprites or undead. Alternatively, you can select two races of humanoid (such as gnolls and orcs). You gain the following benefits:\n\n- During the first round of any combat against your chosen foes, your attack rolls against any of them have Advantage.\n- When any of your chosen foes makes an opportunity attack against you, it makes the attack roll with Disadvantage.\n- Whenever you make an Arcana, History, Nature, or Religion check to recall information about your chosen foes, you gain Proficiency in the roll if you don't already, Expertise if you are Proficient, or Advantage if you have Expertise."
+    },
+    {
+        "name": "Gruumsh's Fury",
+        "tag": [
+            "combat",
+            "offensive",
+            "racial",
+            "tuskman"
+        ],
+        "preq": [],
+        "desc": "The fury of Gruumsh burns barely contained within you. You gain the following benefits:\n\n- When you hit with an attack made with a melee weapon, you can roll one of the weapon's damage dice an additional time and add it as extra damage of the weapon's damage type.\n- Immediately after you use your Racial Power taken with from your Red Rage heritage, you can make one weapon attack.\n\nOnce you use each of these abilities, you can't use it again until you finish a Short Rest."
+    },
+    {
+        "name": "Hale Defence",
+        "tag": [
+            "combat",
+            "defensive"
+        ],
+        "preq": [
+            "Fortitude +2"
+        ],
+        "desc": "Your steadfast ability to take hits sees you through. When not wearing Medium (excluding Hide Armour) or Heavy Armour, instead of Reflexes, your Fortitude is used in your Defence calculations. You can use a shield and still gain this benefit."
+    },
+    {
+        "name": "Hale Recovery",
+        "tag": [
+            "exploration",
+            "recovery"
+        ],
+        "preq": [
+            "After 3 Powers",
+            "Once every 4th Power"
+        ],
+        "desc": "During a Short Rest you regain two times your Baseline Health during Recovery. You can take this power up to 3 times, where you regain three times, then four times your Baseline Health."
+    },
+    {
+        "name": "Healer",
+        "tag": [
+            "background",
+            "combat",
+            "healing"
+        ],
+        "preq": [
+            "Medicine"
+        ],
+        "desc": "You are an able physician, allowing you to mend wounds quickly and get your allies back in the fight. You gain the following benefits:\n\n- When you use a healer's kit to stabilize a dying character, that character also regains 1 health.\n- As an action. you can spend one use of a healer's kit to tend to a character and restore 1d6 + 4 health to it. The character can't regain health from this Power again until it finishes a long rest."
+    },
+    {
+        "name": "Health Increase",
+        "tag": [
+            "exploration",
+            "health",
+            "stat",
+            "powerful"
+        ],
+        "preq": [
+            "After 3 Powers",
+            "Once every 4th Power"
+        ],
+        "desc": "Increase your Health by your Fortitude + Willpower (to a minimum increase of 1) to your Health total. If you increase or decrease your Fortitude or Willpower at other times in the game, recalculate your Health Bonus from Health Increase using the new values."
+    },
+    {
+        "name": "Heaven's Fall",
+        "tag": [
+            "invocation"
+        ],
+        "preq": [
+            "Celestial Patron",
+            "Pact Magic",
+            "Pact of the Blade",
+            "roll-effecting"
+        ],
+        "desc": "You can create a longbow using your Pact of the Blade Power. When you draw back its string and fire, it creates an arrow of white wood, which vanishes after 1 minute. You have Advantage on attack rolls against Aberrations, Demons, Fiends, Lycanthropes, Monstrosities, Sprites or Undead with the bow. When you hit a character with it, you can expend a Charge of your Stipend to deal an additional 2d8 radiant damage to the target per Magnitude."
+    },
+    {
+        "name": "Heavy Attack",
+        "tag": [
+            "combat",
+            "offensive",
+            "powerful"
+        ],
+        "preq": [
+            "Strength +3",
+            "After 6 Powers"
+        ],
+        "desc": "Whenever you take the Attack Action on your turn to make a weapon attack that uses Strength, you double the damage dice of the weapon."
+    },
+    {
+        "name": "Heightened Spell",
+        "tag": [
+            "meta-magic",
+            "roll-effecting"
+        ],
+        "preq": [
+            "Meta Magic",
+            "Willpower +3"
+        ],
+        "desc": "When you cast a spell that forces a character to make a saving throw to resist its effects, you can spend 3 Magnitude I Reserve to give one target of the spell Disadvantage on its first saving throw made against the spell."
+    },
+    {
+        "name": "Heritage of the Sea",
+        "tag": [
+            "combat",
+            "elf",
+            "exploration",
+            "movement",
+            "racial",
+            "half-elf"
+        ],
+        "preq": [],
+        "desc": "Adapted to life on the coasts and in the waters, you have a swimming speed of 30ft and can hold your breath for 1 hour."
+    },
+    {
+        "name": "Homing Spell",
+        "tag": [
+            "meta-magic"
+        ],
+        "preq": [
+            "Meta Magic",
+            "Reflexes +1"
+        ],
+        "desc": "When you cast a spell that requires you to make a spell attack roll or that forces a target to make a Dexterity saving throw, you can spend 1 Magnitude I Reserve to ignore the effects of half- and three-quarters cover against targets of the spell."
+    },
+    {
+        "name": "Hooked Claws",
+        "tag": [
+            "racial",
+            "goblinoid",
+            "combat",
+            "offensive"
+        ],
+        "preq": [],
+        "desc": "Your claws are natural weapons, which you can use to make attacks with proficiency even if you lack Body proficiency. If you hit with them, you deal slashing damage equal to 1d6 + your Strength. In addition, if the character was surprised by the Hooked Claws strike (due to a surprise round, being hidden, etc), you can make a free grapple check against the character."
+    },
+    {
+        "name": "Hypnotic Gaze",
+        "tag": [
+            "combat",
+            "crowd-control"
+        ],
+        "preq": [
+            "Spellcasting"
+        ],
+        "desc": "Your soft words and enchanting gaze can magically enthrall another character. As an Action, choose one character that you can see within 5ft of you. If the target can see or hear you, it must succeed on a Willpower saving throw against your Spellcasting spell save DC or be charmed by you until the end of your next turn. The charmed character's speed drops to 0, and the character is Incapacitated and visibly dazed.\n\nOn subsequent Rounds, you can use your Action to maintain this effect, extending its duration until the end of the Round. However, the effect ends if you move more than 5ft away from the character, if the character can neither see nor hear you, or if the character takes damage.\n\nOnce the effect ends, or if the character succeeds on its initial saving throw against this effect, you can't use this Power on that character again until you finish a Long Rest."
+    },
+    {
+        "name": "Improved Action Surge",
+        "tag": [
+            "combat",
+            "utility"
+        ],
+        "preq": [
+            "Dexterity +3",
+            "Action Surge",
+            "After 6 Powers"
+        ],
+        "desc": "You can push yourself beyond your normal limits repeatedly. After your Action, you can take one additional Action.\n\nOnce you use this Power a number of times equal to your Dexterity, you must finish a Short Rest before you can use it again."
+    },
+    {
+        "name": "Improved Bardic Inspiration",
+        "tag": [
+            "combat",
+            "social",
+            "utility"
+        ],
+        "preq": [
+            "Charisma +3",
+            "After 6 Powers"
+        ],
+        "desc": "You can use the Bardic Inspiration Power a number of times equal to your Charisma + your Bonus and the die increases from a d6 to a d10."
+    },
+    {
+        "name": "Improved Focus",
+        "tag": [
+            "combat",
+            "utility",
+            "focus"
+        ],
+        "preq": [
+            "Willpower +2"
+        ],
+        "desc": "Your Focus pool is now 2x your Willpower + your Bonus."
+    },
+    {
+        "name": "Improved Minor Illusion",
+        "tag": [
+            "exploration",
+            "utility"
+        ],
+        "preq": [
+            "Spell - Minor Illusion"
+        ],
+        "desc": "When you cast Minor Illusion, you can create both a sound and an image with a single casting of the spell."
+    },
+    {
+        "name": "Improved Rage",
+        "tag": [
+            "combat",
+            "offensive",
+            "utility"
+        ],
+        "preq": [
+            "After 3 Powers",
+            "Once every 4th Power",
+            "Rage",
+            "Strength +2"
+        ],
+        "desc": "While raging, when you make a melee weapon attack using Strength, you gain a +2 Bonus to the damage roll, and your Rage doesn't end early unless you will it to with a Bonus Action.\n\nEvery time you take this power again, the bonus to damage, duration and strength prerequisite increase by 1."
+    },
+    {
+        "name": "Innate Spells",
+        "tag": [
+            "spellcasting",
+            "universal"
+        ],
+        "preq": [
+            "Mana",
+            "Spellcasting - one of"
+        ],
+        "desc": "Through intense study, practice and acumen, you learn two prepared spells from your available spell lists permanently as Innate Spells. You cannot learn spells of a Magnitude you do not have Mana for."
+    },
+    {
+        "name": "Inspiring Leader",
+        "tag": [
+            "social",
+            "combat",
+            "healing"
+        ],
+        "preq": [],
+        "desc": "You can spend 10 minutes inspiring your companions, shoring up their resolve to fight. When you do so, choose up to six friendly characters (which can include yourself) within 30ft of you who can see or hear you and who can understand you. Each character can gain temporary hit points equal to your Bonus + your Charisma. A character can\u2019t gain temporary hit points from this Power again until it has finished a Short Rest."
+    },
+    {
+        "name": "Jack of All Trades",
+        "tag": [
+            "background",
+            "exploration",
+            "skill"
+        ],
+        "preq": [],
+        "desc": "You can add half your Bonus, rounded down, to any Checks you make that doesn't already include a Bonus."
+    },
+    {
+        "name": "Journeyman Mage",
+        "tag": [
+            "background",
+            "spellcasting",
+            "universal"
+        ],
+        "preq": [],
+        "desc": "Choose a Sphere of Magic: Arcane, Divine, Occult or Primal. You learn two cantrips of your choice from that sphere's spell list.\n\nIn addition, choose one Magnitude I Spell to learn from that same spell list. Using this Power, you can cast the spell twice at Magnitude I, where you must then finish a Long Rest before you can cast it with this Power again.\n\nYour spellcasting statistic for these spells depends on the class you chose: Intelligence for Arcane, Faith for Divine, Charisma for Occult or Verdance for Primal (see the [Verdance Table](\/pedd\/magic#verdance-table)).\n\nAdditionally, being a Journeyman Mage makes learning the corresponding Spellcasting Power and Mana Power much faster."
+    },
+    {
+        "name": "Keen Senses",
+        "tag": [
+            "background",
+            "exploration",
+            "racial",
+            "sense",
+            "half-elf",
+            "goblinoid",
+            "tuskman"
+        ],
+        "preq": [],
+        "desc": "One of your senses is more accute than the average human's. Choose one of the senses (sight, hearing, touch, taste, smell or psychic). You add your Bonus to any Perception checks for this sense, when no Skill is in use. You can take this Power again for different senses."
+    },
+    {
+        "name": "Ki",
+        "tag": [
+            "combat",
+            "defensive",
+            "movement",
+            "offensive"
+        ],
+        "preq": [
+            "Willpower +2"
+        ],
+        "desc": "Your inner training allows you to harness the mystical bodily energy of ki. Your access to this energy is represented by a number of ki points equal to your Willpower. You can spend these points to fuel various ki Powers. You start knowing four such Powers: Flurry of Blows, Patient Defense, Step of the Wind, and Swans Flight.\n\nWhen you spend a ki point, it is unavailable until you finish a Short Rest, at the end of which you draw all of your expended ki back into yourself. You must spend at least 30 minutes of the rest meditating to regain your ki points.\n\nSome of your ki Powers require your target to make a saving throw to resist the feature's effects. Your Ki save DC is 8 + your Bonus + your Willpower halved (rounded up).\n\n- **Flurry of Blows** - Immediately after you take the Attack action, you can spend 1 ki point to make two unarmed strikes as a Bonus Action.\n- **Patient Defense** - You can spend 1 ki point to take the Dodge action as a Bonus Action.\n- **Step of the Wind** - You can spend 1 ki point to take the Dash action as a bonus action without provoking Attacks of Opportunity, and your jump distance is doubled for the round.\n-**Swans Flight** - You can spend 1 ki point to move along or up vertical surfaces and across liquids without falling when you take the Move Action. If you end your movement still on a vertical or liquid surface you must spend another Ki point to do Swans Flight in the next Round, or fall in the next Round instead."
+    },
+    {
+        "name": "Knowledge of the Ages",
+        "tag": [
+            "exploration",
+            "miracle",
+            "skill"
+        ],
+        "preq": [
+            "Divine Domain"
+        ],
+        "desc": "You can Channel Divinity to tap into a divine well of knowledge, as an Action. You choose one Skill. For 10 minutes, you have Proficiency with the chosen Skill."
+    },
+    {
+        "name": "Lance of Lethargy",
+        "tag": [
+            "invocation"
+        ],
+        "preq": [
+            "Eldritch Blast cantrip",
+            "Pact Magic"
+        ],
+        "desc": "Once per Round when you hit a character with your Eldritch Blast, you can reduce that character's speed by 10ft until the end of the next Round."
+    },
+    {
+        "name": "Lay on Hands",
+        "tag": [
+            "combat",
+            "healing"
+        ],
+        "preq": [
+            "Faith +1"
+        ],
+        "desc": "Your blessed touch can heal wounds. You have a pool of healing energy that replenishes when you take a long rest. With that pool, you can restore a total amount of Health equal to your Faith x 5.\n\nAs an Action, you can touch a character and draw energy from the pool to restore an amount of Health to that character, up to the maximum amount remaining in your pool.\n\nAlternatively, you can expend 5 Health from your pool of healing to cure the target of one Disease or remove the Poisoned condition from it. You can cure multiple diseases and neutralize multiple poisons with a single use of Lay on Hands, expending Health separately for each one.\n\nThis Power has no effect on Undead, Constructs or Machines."
+    },
+    {
+        "name": "Learned",
+        "tag": [
+            "background",
+            "exploration",
+            "skill",
+            "utility"
+        ],
+        "preq": [
+            "History \/ Arcana \/ Religion Proficiency"
+        ],
+        "desc": "You gain Expertise in History, Arcana and Religion if you had Proficiency with each. As you gain Proficiency with each of these skills later, you also gain Expertise in them from Learned."
+    },
+    {
+        "name": "Leatherlung Tactics",
+        "tag": [
+            "combat",
+            "offensive",
+            "healing",
+            "utility",
+            "focus"
+        ],
+        "preq": [
+            "Charisma +1"
+        ],
+        "desc": "You gain the following Tactical Actions:\n\n- **Menace** - as an Action, you can attempt to intimidate a character that can see or hear you. You must make a Charisma check vs their passive Willpower. On a success, the target is Frightened of you until the end of the Round.\n- **Rally** - as a Bonus Action you can bolster the resolve of one of your allies. When you do so, choose an ally who can see or hear you. They gain temporary Health equal to your Charisma (to a minimum of 1). When you have used Rally on an ally, you cannot use Rally on the same ally until you both finish a Long Rest."
+    },
+    {
+        "name": "Lightning Reflexes",
+        "tag": [
+            "combat",
+            "focus",
+            "utility"
+        ],
+        "preq": [],
+        "desc": "You gain your Bonus to Initiative Contests. Additionally, when you spend 1 Focus, you instead add your Bonus x d6 to the roll."
+    },
+    {
+        "name": "Long-limbed",
+        "tag": [
+            "racial",
+            "goblinoid",
+            "combat",
+            "utility"
+        ],
+        "preq": [],
+        "desc": "When you make a melee attack on your turn, your reach for it is 5 feet greater than normal."
+    },
+    {
+        "name": "Lucky",
+        "tag": [
+            "background",
+            "roll-effecting",
+            "universal"
+        ],
+        "preq": [],
+        "desc": "When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die. You must use the new result, even if it is a 1."
+    },
+    {
+        "name": "Magical Tinkering",
+        "tag": [
+            "combat",
+            "exploration",
+            "utility"
+        ],
+        "preq": [
+            "Engineering",
+            "Intelligence +1"
+        ],
+        "desc": "You've learned how to invest a spark of magic into mundane objects. To use this ability, you must have thieves' tools or artisan's tools in hand. You then touch a Tiny nonmagical object as an Action and give it one of the following magical properties of your choice:\n\n - The object sheds bright light in a 5ft radius and dim light for an additional 5ft.\n - Whenever tapped by a character, the object emits a recorded message that can be heard up to 10ft away. You utter the message when you bestow this property on the object, and the recording can be no more than 6 seconds long.\n - The object continuously emits your choice of an odor or a nonverbal sound (wind, waves, chirping, or the like). The chosen phenomenon is perceivable up to 10ft away.\n - A static visual effect appears on one of the object's surfaces. This effect can be a picture, up to 25 words of text, lines and shapes, or a mixture of these elements, as you like.\n\nThe chosen property lasts indefinitely. As an action, you can touch the object and end the property early. You can bestow magic on multiple objects, touching one object each time you use this Power, though a single object can only bear one property at a time. The maximum number of objects you can affect with this Power at one time is equal to your Intelligence. If you try to exceed your maximum, the oldest property immediately ends, and then the new property applies.\n\nAdditionally, if you have the Arcane Spellcasting Power, you may use your thieves' or artisan's tools as a spellcasting focus."
+    },
+    {
+        "name": "Mana",
+        "tag": [
+            "dragonborn",
+            "elf",
+            "gnome",
+            "half-elf",
+            "human",
+            "racial",
+            "goblinoid",
+            "spellcasting",
+            "universal",
+            "powerful"
+        ],
+        "preq": [
+            "Once every 3rd Power"
+        ],
+        "desc": "You're able to tap into a well of mystical energy within yourself known to practitioners as Mana. Your Mana comes in a Reserve, of which portions, or 'points', are at a certain Magnitude. Higher Magnitude Reserve can always be used at a lower Magnitude, though it still only counts as 1 point. Consult the table below by your rank in this Power to see what your Reserve is per Mag. (Magnitude). \n\nYour Reserve replenishes after a Long Rest.\n\nAdditionally, as you gain mana your natural aptitude for magic increases. You gain bonus Cantrips according to the Bonus Cantrips column, choosing them from the spell sphere lists you have access to. You may choose from; Druidcraft, Prestidigitation or Thaumaturgy, if for example don't have access to any spell spheres.\n\n| Bonus Cantrips | Mag. I | Mag. II | Mag. III | Mag. IV | Mag. V | Mag. VI | Mag. VII | Mag. VIII | Mag. IX |\n| -------------- | ------ | ------- | -------- | ------- | ------ | ------- | -------- | --------- | ------- |\n| 0              | 2      | -       | -        | -       | -      | -       | -        | -         | -       |\n| 1              | 4      | 2       | -        | -       | -      | -       | -        | -         | -       |\n| 1              | 4      | 3       | 2        | -       | -      | -       | -        | -         | -       |\n| 1              | 4      | 3       | 3        | 1       | -      | -       | -        | -         | -       |\n| 2              | 4      | 3       | 3        | 3       | 1      | -       | -        | -         | -       |\n| 2              | 4      | 3       | 3        | 3       | 2      | 1       | -        | -         | -       |\n| 2              | 4      | 3       | 3        | 3       | 2      | 1       | 1        | -         | -       |\n| 2              | 4      | 3       | 3        | 3       | 2      | 1       | 1        | 1         | -       |\n| 3              | 4      | 3       | 3        | 3       | 3      | 2       | 2        | 1         | 1       |"
+    },
+    {
+        "name": "Mana Manipulation",
+        "tag": [
+            "recovery",
+            "resource",
+            "spellcasting",
+            "universal"
+        ],
+        "preq": [
+            "Mana"
+        ],
+        "desc": "You can use your advanced control over magic to manipulate the levels of mana in your own body. By focusing your mind you can break down the bands of power within into discrete points of mana, that you can reassemble as you need.\n\n- As a Bonus Action on your turn, you can expend 1 Reserve of mana of a given magnitude and gain a number of 'Mana Points' equal to the Magnitude's rank.\n- You can transform Mana Points into one point of Reserve of a certain Magnitude as a Bonus Action during the Round. The Creating Reserve table below shows the conversion from Mana Points to Mana Reserve. You can create Reserve of no higher than Magnitude V. Any Reserve you create with this Power vanishes when you finish a Long Rest.\n\n| Creating Reserve |                     |\n| ---------------- | ------------------- |\n| **Magnitude**    | **Mana Point Cost** |\n| I                | 2                   |\n| II               | 3                   |\n| III              | 5                   |\n| IV               | 6                   |\n| V                | 7                   |"
+    },
+    {
+        "name": "Mariner",
+        "tag": [
+            "combat",
+            "defensive",
+            "utility",
+            "fighting-style"
+        ],
+        "preq": [
+            "Strength +1"
+        ],
+        "desc": "As long as you are not wearing heavy armour or using a shield, you gain the following benefits:\n\n- fighting in water does not confer Disadvantage to your attacks.\n- your swim speed and climbing speed is doubled to a maximum of your Speed (by default your swim and climbing peeds are 1\/4 of your Speed).\n- you gain a +1 Bonus to your Evasion."
+    },
+    {
+        "name": "Marksman",
+        "tag": [
+            "combat",
+            "offensive"
+        ],
+        "preq": [
+            "Accuracy +1"
+        ],
+        "desc": "You gain a +2 bonus to attack rolls you make with Firearms & Pistols without the Scatter property."
+    },
+    {
+        "name": "Martial Arts",
+        "tag": [
+            "combat",
+            "offensive"
+        ],
+        "preq": [
+            "Body Skill",
+            "Dexterity +1"
+        ],
+        "desc": "Your practice of martial arts gives you mastery of combat styles that use unarmed strikes and 'martial arts weapons': weapons which don't have the ranged, two-handed or heavy properties and with which you already have proficiency. You gain the following benefits while you are unarmed or wielding only martial arts weapons and you aren't wearing armour or wielding a shield:\n\n- You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes and martial arts weapons.\n- You can roll a d6 in place of the normal damage dice of your unarmed strike or martial arts weapon. The damage type is unchanged.\n- When you use the Attack Action with an unarmed strike or a martial arts weapon, you can make one unarmed strike as a Bonus Action. For example, if you take the Attack Action and attack with a quarterstaff with which you are proficient, you can also make an unarmed strike as a Bonus Action, assuming you haven't already taken a Bonus Action this round."
+    },
+    {
+        "name": "Martial Heritage",
+        "tag": [
+            "background",
+            "goblinoid",
+            "combat",
+            "defensive",
+            "skill",
+            "utility"
+        ],
+        "preq": [],
+        "desc": "After undergoing your transformations and at last being admitted into a holdfast (or from some other tutor or training), you have been trained and readied for war. You are proficient in the next tier of armour skill (Light Armour if you weren't proficient in any, Medium Armour if you were proficient in light, Heavy Armour if you were proficient in medium), and you are proficient in using Knives and Clubs & Axes. In addition, you are proficient in two martial skills of your choice."
+    },
+    {
+        "name": "Martial Master",
+        "tag": [
+            "background",
+            "combat",
+            "skill",
+            "utility"
+        ],
+        "preq": [],
+        "desc": "You have practiced extensively with a variety of weapons, armour and shields. You can swap between two weapons\/shields once per Round without needing an action and you gain Proficiency in four Martial Skills of your choice. If you take this Power again, you gain a further four Martial Skill proficiencies each time.",
+        "skill": {
+            "martial": [
+                "Any",
+                "Any",
+                "Any",
+                "Any"
+            ]
+        }
+    },
+    {
+        "name": "Mask of Many Faces",
+        "tag": [
+            "invocation"
+        ],
+        "preq": [
+            "Pact Magic"
+        ],
+        "desc": "You can cast Disguise Self at will, without spellcasting, expending your Stipend \/ Mana, or needing material components."
+    },
+    {
+        "name": "Menacing",
+        "tag": [
+            "racial",
+            "skill",
+            "social",
+            "tuskman",
+            "dragonborn"
+        ],
+        "preq": [],
+        "desc": "Your visage is naturally intimidating. You gain proficiency in the Intimidation skill."
+    },
+    {
+        "name": "Meta Magic",
+        "tag": [
+            "meta-magic",
+            "spellcasting"
+        ],
+        "preq": [
+            "Spellcasting - one of"
+        ],
+        "desc": "You've learned to invest more power into spells to manipulate them on the fly. You gain two 'Meta-magic' Powers of your choice, if you meet the prerequisites, and you can choose two new meta-magic options when take this Power again. Unless otherwise stated, a spell can have any number of different meta-magic effects applied to it at a time, but each effect can only be applied once."
+    },
+    {
+        "name": "Minor Alchemy",
+        "tag": [
+            "exploration",
+            "utility"
+        ],
+        "preq": [
+            "Arcane Spellcasting"
+        ],
+        "desc": "When you studied transmutation, you learned to temporarily alter the physical properties of one nonmagical object, changing it from one substance into another. You perform a special alchemical procedure on one object composed entirely of wood, stone (but not a gemstone), lead, iron or other common metals, or silver, transforming it into a different one of those materials. For each 10 minutes you spend performing the procedure, you can transform up to 1 cubic foot of material. After 1 hour, or until you lose your concentration (as if you were concentrating on a spell), the material reverts to its original substance."
+    },
+    {
+        "name": "Minor Conjuration",
+        "tag": [
+            "exploration",
+            "utility"
+        ],
+        "preq": [
+            "Arcane Spellcasting"
+        ],
+        "desc": "You can use your Action to conjure up an inanimate object in your hand or on the ground in an unoccupied space that you can see within 10ft of you. This object can be no larger than 3ft on a side and weigh no more than 10lbs, and its form must be that of a nonmagical object that you have seen. The object is visibly magical, radiating dim light out to 5ft.\n\nThe object disappears after 1 hour, when you use this Power again, or if it takes or deals any damage, after that damage has been taken \/ dealt."
+    },
+    {
+        "name": "Mist Mad",
+        "tag": [
+            "cantrip",
+            "combat",
+            "defensive",
+            "exploration",
+            "movement",
+            "offensive",
+            "racial",
+            "skill",
+            "stat",
+            "utility",
+            "gnome"
+        ],
+        "preq": [],
+        "desc": "Many Gnomes are cautioned to avoid the Mists at all costs, and many heed those wise words. Those that don't are often doomed to be hypnotized by the Mist's maddening swirls, and be drawn deep within. Those that survive are inevitably deeply changed, and far from home. You have several major mutations warping and twisting your body in many locations, which have a collective effect. The effect of these mutations is not only to make you look like the horror that peasants tell tales of to frighten their children, enough to even make Mistdivers flinch at your visage, but one of the following;\n- **Bulging Skin-Bursting Muscles** - you ignore the heavy property of weapons, you gain proficiency in Athletics, and your Strength is increased by 1\n- **Pawed digitigrade Hooves and Tail** - your movement speed is now 35ft, you gain proficiency in Acrobatics, and your Dexterity is increased by 1\n- **Armoured Shell and Scales** - you gain Natural Armour of 5. You are resistant to Slashing damage, and your Fortitude is increased by 1.\n- **Headful of Mismatched Eyes** - your passive perception is increased by 5, you gain proficiency in Observation, and your Perception score is increased by 1.\n- **Hypnotic Bioluminescence** - you know the Friends cantrip, using your Charisma to cast the spell, you gain proficiency in Persuasion, and your Charisma score is increased by 1."
+    },
+    {
+        "name": "Misty Visions",
+        "tag": [
+            "invocation"
+        ],
+        "preq": [
+            "Silent Image Spell",
+            "Pact Magic"
+        ],
+        "desc": "You can cast Silent Image at will, without spellcasting, expending your Stipend \/ Mana, or needing material components."
+    },
+    {
+        "name": "Natural Air Magic",
+        "tag": [
+            "background",
+            "cantrip",
+            "djinn",
+            "exploration",
+            "racial",
+            "spellcasting"
+        ],
+        "preq": [],
+        "desc": "You know the Shocking Grasp cantrip. You know the Feather Fall and Levitate spells, each of which you can cast once with this trait without expending Mana or requiring a material component. You regain the ability to cast these two spells in this way when you finish a Long Rest. Willpower (halved, rounded up) is your spellcasting statistic for these spells."
+    },
+    {
+        "name": "Natural Aptitude",
+        "tag": [
+            "human",
+            "racial",
+            "universal"
+        ],
+        "preq": [],
+        "desc": "This race has a natural aptitude for picking up abilities quickly, weilding them as well as other Races are born to their own natural abilities. Choose any non-racial Power where the Statistic Prerequisites do not total above 1 and you qualify for that Power, and take that Power as your Natural Aptitude.\n\nThis Power can be taken twice, choosing a different non-racial Power each time."
+    },
+    {
+        "name": "Natural Artifice",
+        "tag": [
+            "exploration",
+            "gnome",
+            "racial",
+            "skill"
+        ],
+        "preq": [],
+        "desc": "You gain the benefits of the Artificer's Lore Power, only for you such knowledge is instinctual rather than learned."
+    },
+    {
+        "name": "Natural Camouflage",
+        "tag": [
+            "elf",
+            "exploration",
+            "racial",
+            "roll-effecting",
+            "half-elf",
+            "tuskman",
+            "goblinoid"
+        ],
+        "preq": [],
+        "desc": "You can try to hide by pressing yourself up against a solid surface as an Action, such as a tree or wall, that is at least as tall and wide as you are, or against the ground by going Prone. You gain a +10 bonus to Stealth checks as long as you remain there without moving or taking Actions. Once you move or take an action or bonus action, you must camouflage yourself again to gain this benefit."
+    },
+    {
+        "name": "Natural Earth Magic",
+        "tag": [
+            "background",
+            "cantrip",
+            "djinn",
+            "exploration",
+            "racial",
+            "spellcasting"
+        ],
+        "preq": [],
+        "desc": "You know the Blade Ward cantrip. You know the Entangle and Spike Growth spells, each of which you can cast once with this trait without expending Mana or requiring a material component. You regain the ability to cast these two spells in this way when you finish a Long Rest. Fortitude (halved, rounded up) is your spellcasting statistic for these spells."
+    },
+    {
+        "name": "Natural Explorer",
+        "tag": [
+            "combat",
+            "exploration",
+            "roll-effecting",
+            "utility",
+            "background"
+        ],
+        "preq": [
+            "Perception +1",
+            "Once every 4th Power"
+        ],
+        "desc": "You are a master of navigating two types of natural environment, and you react with swift and decisive action when attacked in such regions. Choose two types of favoured terrain: boreal, aquatic, deserts, woods, jungles, plains, mountains, swamps, or underground. When in such terrain you have the following benefits:\n\n- You ignore difficult natural terrain of that environment.\n- You have Advantage on Initiative rolls.\n- Your first Attack in a combat has Advantage.\n- Verdance is one higher for you in your terrain, if you have Primal Spellcasting (up to a maximum of 6).\n\nWhile travelling in your favoured terrain, you gain the following benefits:\n\n- Difficult terrain doesn't slow your group's travel, and your group can move stealthily at a normal pace.\n- Your group can't become lost except by magical means.\n- Even when you are engaged in another activity while travelling (such as foraging, navigating, or tracking), you remain alert to danger.\n- When you forage, you find twice as much food as you normally would.\n- While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.\n\nWhen you retake this Power, choose two new favoured terrain types."
+    },
+    {
+        "name": "Natural Fire Magic",
+        "tag": [
+            "background",
+            "cantrip",
+            "djinn",
+            "exploration",
+            "racial",
+            "spellcasting"
+        ],
+        "preq": [],
+        "desc": "You know the Produce Flame cantrip. You know the Burning Hands and Flame Blade spells, each of which you can cast once with this trait without expending Mana or requiring a material component. You regain the ability to cast these two spells in this way when you finish a Long Rest. Fortitude (halved, rounded up) is your spellcasting statistic for these spells."
+    },
+    {
+        "name": "Natural Illusionist",
+        "tag": [
+            "exploration",
+            "gnome",
+            "racial",
+            "spellcasting",
+            "elf",
+            "half-elf"
+        ],
+        "preq": [],
+        "desc": "You know the Minor Illusion cantrip and the Silent Image spell, which you can cast once without expending Mana. You regain the ability to cast it in this way when you finish a Short Rest. Intelligence is your spellcasting attack modifier for it.\n\nAdditionally, you learn illusion school spells at twice the usual rate."
+    },
+    {
+        "name": "Natural Water Magic",
+        "tag": [
+            "background",
+            "cantrip",
+            "djinn",
+            "exploration",
+            "racial",
+            "spellcasting"
+        ],
+        "preq": [],
+        "desc": "You know the Acid Splash cantrip. You know the Create or Destroy Water and Water Walk spells, each of which you can cast once with this trait without expending Mana or requiring a material component. You regain the ability to cast these two spells in this way when you finish a Long Rest. Willpower (halved, rounded up) is your spellcasting statistic for these spells."
+    },
+    {
+        "name": "Naturally Stealthy",
+        "tag": [
+            "combat",
+            "exploration",
+            "movement",
+            "racial",
+            "skill",
+            "halfling",
+            "tuskman"
+        ],
+        "preq": [],
+        "desc": "You gain profiency in Stealth, and you can attempt to hide even when you are only obscured by an object or character that is the same size as you."
+    },
+    {
+        "name": "Observant",
+        "tag": [
+            "background",
+            "social",
+            "exploration"
+        ],
+        "preq": [
+            "Perception +1"
+        ],
+        "desc": "Quick to notice details of your environment, you gain the following benefits:\n\n- If you can see a creature's mouth while it is speaking a language you understand, you can interpret what it's saying by reading its lips.\n- Your passive Perception is increased by your Bonus.\n-You gain proficiency in one of your choice of: Insight, Investigation, Observe"
+    },
+    {
+        "name": "Occult Spellcasting",
+        "tag": [
+            "spellcasting",
+            "universal"
+        ],
+        "preq": [
+            "Mana"
+        ],
+        "desc": "An event in your past, or in the life of a parent or ancestor, left an indelible mark on you, infusing you with occultish magic. This font of magic, whatever its origin, fuels your spells. Your Magic Statistic for Occult Spellcasting depends on the school of the spell that you cast, since the power of your magic relies on your body's ability to conjure, fuel and guide the magic, rather than any specific learning.\n\n- For Abjuration, Conjuration and Divination spells you use your Fortitude (halved, rounded up).\n- For Illusion and Transmutation spells you use your Reflexes (halved, rounded up).\n- For Enchantment, Evocation and Necromancy spells you use your Willpower (halved, rounded up).\n\nYou can use an arcane focus as a spellcasting focus for your sorcerer spells.\n\n**Cantrips** - You know four cantrips of your choice from the Occult Sphere spell list.\n\n**Spells Known** - You know two Magnitude I spells of your choice from the Occult Sphere spell list as Innate Spells. When you gain a rank in the Mana Power, you learn one more Occult Sphere spell of a Magnitude which you have Reserve for, also as an Innate Spell.\n\nAdditionally, when you gain a rank in Mana, you can choose one of the Innate Occult Sphere Spells you know and replace it with another from the Occult Sphere spell list, which also must be of a Magnitude for which you have Reserve."
+    },
+    {
+        "name": "Open Hand Technique",
+        "tag": [
+            "ki",
+            "combat"
+        ],
+        "preq": [
+            "Ki"
+        ],
+        "desc": "You can manipulate your enemy\u2019s ki when you harness your own. Whenever you hit a Character with one of the attacks granted by your Flurry of Blows, they must make a Fortitude saving throw. If they fail, you can:\n\n- Make a free Shove action on them.\n- Stun the target for this Round."
+    },
+    {
+        "name": "Otherworldly Patron",
+        "tag": [
+            "patron",
+            "resource"
+        ],
+        "preq": [],
+        "desc": "You have struck a bargain with an otherworldly being of your choice. When you take this Power, choose one Patron Power, your Patron. You may not strike more than one bargain."
+    },
+    {
+        "name": "Overcharge",
+        "tag": [
+            "invocation"
+        ],
+        "preq": [
+            "After 3 Powers",
+            "Once every 4th Power",
+            "Pact Magic"
+        ],
+        "desc": "Your Stipend Charges increase by one. You can take this Power a maximum of 3 times, for a maximum of 5 Charges."
+    },
+    {
+        "name": "Pact Magic",
+        "tag": [
+            "spellcasting"
+        ],
+        "preq": [
+            "Otherworldly Patron"
+        ],
+        "desc": "Your arcane research and the magic bestowed on you by your patron have given you facility with spells.\n\n**Cantrips** - You know two cantrips of your choice from the Spell List of your Patron. Through the Cantrip Cornucopia Invocation, you can gain more cantrips.\n\n**Stipend** - Your Patron bestows upon you a stipend of magical power, that you must expend as Mana Reserve at Magnitude I. You regain all your Stipend when you finish a Short Rest. You have 2 Charges of your Stipend, and can increase the number of Charges of it through the Overcharge Invocation, and the Magnitude through the Force of Will Invocation. All Pact Magic spells are cast at the maximum Magnitude available to you. Stipend is not Mana, and cannot be used in Mana-requiring Powers. However you may cast spells from your Patronage with your own Mana Reserve, if you have any. You can use an arcane focus as a spellcasting focus for your Occult Sphere spells.\n\n**Patronage** - Choose a number of spells from the Spell List of your Patron equal to your Bonus + your Patron's Magic Statistic (to a minimum of 1). These are Innate Spells for you. If these Stats increase, you may choose more spells. During Downtime, you can commune with your Patron and they may choose to allow you to change one, some or all of your Innate Spells up to the Magnitude you have the Stipend to cast."
+    },
+    {
+        "name": "Polyglot",
+        "tag": [
+            "social",
+            "skill"
+        ],
+        "preq": [
+            "Extra Language"
+        ],
+        "desc": "Your proficiency with languages makes picking up others a breeze. You gain Proficiency in three Lanuages, choosing languages you do not already have proficiency in. Additionally, learning languages now takes even less time for you, and if you encounter a language you do not know, you can still attempt communication at Disadvantage. You can take this Power multiple times, chosing 3 new languages each time.",
+        "skill": [
+            "Languages (one)",
+            "Languages (one)",
+            "Languages (one)"
+        ]
+    },
+    {
+        "name": "Portent",
+        "tag": [
+            "roll-effecting",
+            "universal"
+        ],
+        "preq": [
+            "Mana",
+            "Perception +1"
+        ],
+        "desc": "Your mind has been opened to the fabric of fate: glimpses of the future begin to press in on your awareness. When you finish a Long Rest, roll two d20s and record the numbers rolled. You can replace any attack roll, saving throw, or stat check made by you or a character that you can see with one of these foretelling rolls. You must choose to do so before the roll, and you can replace a roll in this way only once per Round.\n\nEach foretelling roll can be used only once. When you finish a Long Rest, you lose any unused foretelling rolls."
+    },
+    {
+        "name": "Powerful Build",
+        "tag": [
+            "racial",
+            "goblinoid",
+            "dragonborn",
+            "tuskman",
+            "dwarf",
+            "exploration"
+        ],
+        "preq": [
+            "Strength +1"
+        ],
+        "desc": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift. You gain the Athletics skill, or if you had it already you gain Expertise."
+    },
+    {
+        "name": "Powerful Cantrips",
+        "tag": [
+            "combat",
+            "offensive",
+            "powerful",
+            "spellcasting",
+            "cantrip"
+        ],
+        "preq": [
+            "Spellcasting - one of",
+            "After 6 Powers"
+        ],
+        "desc": "Whenever you take the Attack action on your turn to cast a cantrip spell, you Enhance its effect, if the cantrip has an enhanced effect. If not, you double the damage dice of the cantrip. If the cantrip has no Enhance description and does not deal damage, this Power has no effect."
+    },
+    {
+        "name": "Primal Spellcasting",
+        "tag": [
+            "spellcasting",
+            "universal"
+        ],
+        "preq": [
+            "Mana",
+            "Perception +1"
+        ],
+        "desc": "Your connection to nature allows you to weave the power of the local environment into primal magic. You can use a druidic focus as a spellcasting focus for your Primal spells. Your Magic Statistic for your Primal Sphere spells is determined by the current Verdance of nature where you are, as detailed in the Verdance table below.\n\n**Cantrips** - You know two cantrips of your choice from the Primal Sphere.\n\n**Preparing and Casting Spells** - You use your Reserve of Mana to cast spells. In addition to any Innate spells you know, you prepare a list of primal spells that are available for you to cast each day. To do so, choose a number of spells from the Primal Sphere spell list. The spells must be of a Magnitude that you have the Reserve for. You can change your list of prepared spells when you finish a Long Rest. Preparing a new list of primal spells requires time spent communing with nature and absorbing the instincts and hidden wisdom needed to cast the spells: at least 1 minute per spell Magnitude for each spell.\n\n| Verdance | Barren | Poor | Middling | Rich | Abundant|\n|---|---|---|---|---|---|\n|Boreal|-1|0|1|2|4|\n|Deeps|-1|0|1|2|4|\n|Deserts|-1|0|1|2|4|\n|Jungles|1|2|3|4|5|\n|Plains|0|1|2|3|4|\n|Mountains|-1|0|1|2|4|\n|Shallows|1|2|3|4|5|\n|Swamps|0|1|2|3|4|\n|Underground|-1|0|1|2|4|\n|Woods|0|1|2|3|4|"
+    },
+    {
+        "name": "Prodigy",
+        "tag": [
+            "exploration",
+            "human",
+            "racial",
+            "skill",
+            "social",
+            "half-elf"
+        ],
+        "preq": [],
+        "desc": "You have a knack for learning new things. You gain the following benefits:\n\n- You gain proficiency in a Basic Skill, Knowledge Skill and one language of your choice.\n- Choose one Skill in which you have proficiency, now or before. You gain Expertise with that Skill.\n- You learn skills at quicker than the usual rate."
+    },
+    {
+        "name": "Professional Artisan",
+        "tag": [
+            "background",
+            "exploration",
+            "roll-effecting"
+        ],
+        "preq": [
+            "Engineering"
+        ],
+        "desc": "When not at Disadvantage, you can choose to spend at least 1 minute and not roll when making any Tool Set or Crafting check with which you are proficient and instead assume you rolled a 10, adding a Stat and any Bonus to that as normal. Any check that would normally take longer than 1 minute still does so."
+    },
+    {
+        "name": "Protective Fighter",
+        "tag": [
+            "combat",
+            "defensive",
+            "roll-effecting"
+        ],
+        "preq": [
+            "Dexterity +1"
+        ],
+        "desc": "When a character you can see attacks a target other than you that is within 5ft of you, you can use your Bonus Action to impose Disadvantage on the attack roll. You must be wielding a Shield or a weapon with the Block property."
+    },
+    {
+        "name": "Psychic Sense",
+        "tag": [
+            "human",
+            "racial",
+            "sense",
+            "universal",
+            "gnome",
+            "halfling",
+            "goblinoid",
+            "half-elf"
+        ],
+        "preq": [],
+        "desc": "You gain the Psychic sense, and you can speak in a language of your choice telepathically to any character within 30ft of you, and if you maintain the connection they may speak back. You can speak telepathically in this way to one character at a time."
+    },
+    {
+        "name": "Quickened Spell",
+        "tag": [
+            "meta-magic"
+        ],
+        "preq": [
+            "Meta Magic",
+            "Reflexes +2"
+        ],
+        "desc": "When you cast a spell that has a casting time of 1 Action, you can spend 2 Magnitude I Reserve to change the casting time to 1 Bonus Action for this casting."
+    },
+    {
+        "name": "Rage",
+        "tag": [
+            "combat",
+            "damage-reduction",
+            "offensive",
+            "roll-effecting",
+            "utility"
+        ],
+        "preq": [
+            "Strength +1, Willpower +1"
+        ],
+        "desc": "In battle, you fight with primal ferocity. You can enter a rage as a Bonus Action.\n\nWhile raging, you gain the following benefits if you aren't wearing heavy armor:\n\n- You have advantage on Strength checks and Fortitude saving throws.\n- When you make a melee weapon attack using Strength, you gain a +1 Bonus to the damage roll.\n- You have resistance to bludgeoning, piercing, and slashing damage.\n- If you are able to cast spells, you can't cast them or concentrate on them while raging.\n- Your Rage lasts for 1 minute. It ends early if you are knocked unconscious or if your turn ends and you haven't attacked a hostile creature since your last turn or taken damage since then. You can also end your rage on your turn as a Bonus Action.\n\nOnce you have raged a number of teams equal to your Willpower, you must finish a Long Rest before you can Rage again."
+    },
+    {
+        "name": "Reckless Attack",
+        "tag": [
+            "combat",
+            "offensive",
+            "roll-effecting"
+        ],
+        "preq": [
+            "Strength +1"
+        ],
+        "desc": "You can throw aside all concern for defense to attack with fierce desperation. If you decide to attack on your turn, you can decide to attack recklessly. Doing so gives you Advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have Advantage until the next turn."
+    },
+    {
+        "name": "Refocus",
+        "tag": [
+            "combat",
+            "focus",
+            "utility",
+            "background"
+        ],
+        "preq": [
+            "Willpower +1"
+        ],
+        "desc": "You have the capability to calm yourself and recentre even during the whirlwind of combat. On your turn, you can use a Bonus Action to regain Focus equal to your Willpower.\n\nOnce you use this Power, you must finish a Short Rest before you can use it again."
+    },
+    {
+        "name": "Relentless Endurance",
+        "tag": [
+            "combat",
+            "healing",
+            "racial",
+            "tuskman",
+            "dwarf"
+        ],
+        "preq": [],
+        "desc": "When you are reduced to 0 Health but not killed outright, you can drop to 1 Health instead. You can't use this Power again until you finish a Long Rest."
+    },
+    {
+        "name": "Resilient",
+        "tag": [
+            "background",
+            "combat",
+            "exploration",
+            "defensive",
+            "roll-effecting"
+        ],
+        "preq": [],
+        "desc": "You gain your Bonus on saving throws with your choice of Fortitude, Reflexes or Willpower. You can take this Power again, chosing a different Resistance each time."
+    },
+    {
+        "name": "Resistance Increase",
+        "tag": [
+            "roll-effecting",
+            "universal"
+        ],
+        "preq": [
+            "After 3 Powers",
+            "Once every 6th Power"
+        ],
+        "desc": "Increase one Resistance by +2, to a maximum of +10."
+    },
+    {
+        "name": "Reversal of Mania",
+        "tag": [
+            "racial",
+            "goblinoid",
+            "combat",
+            "defensive",
+            "damage-reduction"
+        ],
+        "preq": [],
+        "desc": "Your days of being subject to your own urges are gone, and you have achieved a discipline of mind that most creatures of the material world find astounding, especially in contrast to normal Goblins. You have advantage on any saving throw caused by a spell from the enchantment school of magic. You also have advantage on any further saving throws made to end an ongoing enchantment spell's effect."
+    },
+    {
+        "name": "Riposte",
+        "tag": [
+            "combat",
+            "offensive",
+            "defensive",
+            "focus"
+        ],
+        "preq": [
+            "Dexterity +1"
+        ],
+        "desc": "If your weapon has the Parry Property, an enemy makes a melee attack against you, and you are in range of that enemey, you can choose to spend 1 Focus to make a Weapon Attack for free against them. You use your weapon attack roll as your Defense for the enemy's attack roll (even if the result is lower than your normal Defence). Resolve the enemy's attack against your new Defence. If the attack misses, carry over your result as if you had just made a weapon attack against them. If it is a success, you damage them as per a normal weapon attack."
+    },
+    {
+        "name": "Rune Magic",
+        "tag": [
+            "spellcasting",
+            "universal"
+        ],
+        "preq": [
+            "Once every 3rd Power"
+        ],
+        "desc": "You know a number of ancient magical runes that you keep protected in a legend. You can add runes that you find in your adventures to your legend.\n\nAt the end of a Long Rest, choose a number of runes from your legend equal to your Bonus. You imbue them on objects that you carry or wear, through paint, chisel or other means. Each of these runes exudes power, providing a constant benefit to the bearer. In addition, you may expend the power of a rune to cast the Spell that rune embodies. Each symbol Spell is cast at its minimum Magnitude, but requires no Mana or material components, and your Magic Statistic is your Bonus. When you do so, the rune fades and you no longer gain the passive benefit. Any unused runes fade at the start of your next Long Rest.\n\nWhen you take this Power you know 4 runes."
+    },
+    {
+        "name": "Savage Attacks",
+        "tag": [
+            "combat",
+            "offensive",
+            "racial",
+            "tuskman"
+        ],
+        "preq": [
+            "Strength +1"
+        ],
+        "desc": "When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
+    },
+    {
+        "name": "Savage Magic",
+        "tag": [
+            "combat",
+            "offensive",
+            "racial",
+            "spellcasting",
+            "tuskman"
+        ],
+        "preq": [
+            "Spellcasting"
+        ],
+        "desc": "When you score a critical hit with a spell attack, you can roll one of the spell's damage dice one additional time and add it to the extra damage of the critical hit."
+    },
+    {
+        "name": "Savant",
+        "tag": [
+            "exploration",
+            "skill"
+        ],
+        "preq": [
+            "Arcane Spellcasting",
+            "Intelligence +1"
+        ],
+        "desc": "Choose a spell school (Abjuration, Conjuration, Divination, Enchantment, Evocation, Illusion, Necromancy or Transmuation). The gold and time you must spend to copy a spell of that school into your spellbook is halved. In addition, when you make skill checks to do with this branch of magic, you do so as if you had Proficiency. If you would have Proficiency anyway, you do so with Expertise.\n\nYou can take this Power again, but you must choose a different spell school each time."
+    },
+    {
+        "name": "Scrivener's Magic",
+        "tag": [
+            "background",
+            "cantrip",
+            "exploration",
+            "racial",
+            "spellcasting",
+            "gnome"
+        ],
+        "preq": [],
+        "desc": "You learn the magic of the learned scribe. You learn the Message cantrip. You also learn the Comprehend Languages and Illusory Script spells, each of which you can cast once without expending Mana or requiring components. You regain the ability to cast these two spells in this way when you finish a Long Rest. Intelligence is your Magic Statistic for all three spells."
+    },
+    {
+        "name": "Sculpt Spells",
+        "tag": [
+            "combat",
+            "utility"
+        ],
+        "preq": [
+            "Intelligence +1"
+        ],
+        "desc": "You can try to create pockets of relative safety within the effects of your Evocation spells. When you cast an Evocation spell that affects other characters that you can see, you can choose to make an Arcana Skill check against a DC of 15 to spare a number of equal to your Intelligence. If you succeed, the chosen characters automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save."
+    },
+    {
+        "name": "Second Chance",
+        "tag": [
+            "combat",
+            "defensive",
+            "racial",
+            "roll-effecting",
+            "halfling"
+        ],
+        "preq": [],
+        "desc": "When a character you can see hits you with an attack roll, you can force that character to reroll. They must use the second result, even if it is better. Once you use this Power, you can't use it again until a new combat begins or you finish a Short Rest."
+    },
+    {
+        "name": "Second Wind",
+        "tag": [
+            "combat",
+            "healing",
+            "utility",
+            "background"
+        ],
+        "preq": [
+            "Fortitude +1"
+        ],
+        "desc": "You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a Bonus Action to regain Health equal to 1d10 + your Bonus.\n\nOnce you use this Power, you must finish a Short Rest before you can use it again."
+    },
+    {
+        "name": "Secret Language",
+        "tag": [
+            "exploration",
+            "skill"
+        ],
+        "preq": [],
+        "desc": "You know the secret language of a cloistered society, gang, network or other such group. You can speak the language and use it to leave coded messages, the medium varying significantly between secret languages. You and others who know this language automatically spot and decipher such a message. Others who listen to or encounter encoded messages can't decipher the language without magic."
+    },
+    {
+        "name": "Secrets of the Land",
+        "tag": [
+            "exploration",
+            "recovery",
+            "spellcasting",
+            "utility"
+        ],
+        "preq": [
+            "Primal Spellcasting"
+        ],
+        "desc": "Your magic is influenced by the druidic practicies, mysterious rites and primal secrets of a land that you bind yourself to, even as you carry its power wherever you go.\n\n**Land Spells** - Choose 2 Primal sphere spells you can cast that represent the land that you bound yourself to, they are now Innate Spells for you.\n\n**Natural Recovery** - You can regain some of your magical energy by sitting in meditation and communing with nature. During a Short Rest, you choose expended Mana to recover up to a third of your rank in the Mana Power, rounded up. If you're Rank 3 in Mana, you recover Rank 1 Mana, that is to say 2 Magnitude I points. If you're Rank 7 in Mana, you recover Rank 2 Mana: 4 Magnitude I points and 2 Magnitude II points. You can't use this Power again until you finish a Long Rest.\n\nWhen you take this Power again, you gain the benefit of Land Spells. You can take this Power 2 more times, up to 3 times."
+    },
+    {
+        "name": "Seeking Spell",
+        "tag": [
+            "meta-magic"
+        ],
+        "preq": [
+            "Meta Magic",
+            "Reflexes +2"
+        ],
+        "desc": "If you make an attack roll for a spell and miss, you can spend 2 Magnitude I Reserve to reroll the d20, and you must use the new roll."
+    },
+    {
+        "name": "Skilled",
+        "tag": [
+            "exploration",
+            "skill",
+            "background"
+        ],
+        "preq": [
+            "Intelligence +1"
+        ],
+        "desc": "You gain proficiency in one of Alchemy \/ Arcana \/ Disguise \/ Engineering \/ Investigation \/ Navigation \/ Strategy \/ Languages (one) \/ Medicine, in a Martial Skill of your choice, and in any one other Skill of your choice.",
+        "skill": [
+            [
+                "Alchemy",
+                " Arcana",
+                " Disguise",
+                "Engineering",
+                "Investigation",
+                "Navigation",
+                "Strategy",
+                "Languages (one)",
+                "Medicine"
+            ],
+            "Any Martial",
+            "Any"
+        ]
+    },
+    {
+        "name": "Skirmisher Tactics",
+        "tag": [
+            "combat",
+            "offensive",
+            "utility",
+            "focus"
+        ],
+        "preq": [
+            "Accuracy +1"
+        ],
+        "desc": "You gain the following Tactical Actions:\n\n- **Aim** - as an Attack or Action, you gain Advantage on your next weapon attack which must be a ranged or thrown weapon. You can choose to spend 1 Focus, and Aim as a Bonus Action.\n- **Run and Gun** - when you use your Action to Move, you can make 1 Ranged Weapon Attack as a Bonus Action at Disadvantage. You can spend 1 Focus to ignore the Disadvantage\n- **Quick Toss** - as a Bonus Action, you make a Ranged Weapon Attack with a weapon that has the thrown property at Disadvantage. You can draw the weapon as part of making this attack. You can spend 1 Focus to ignore the Disadvantage."
+    },
+    {
+        "name": "Skulker",
+        "tag": [
+            "background",
+            "exploration"
+        ],
+        "preq": [
+            "Dexterity +1"
+        ],
+        "desc": "You are an expert at slinking through shadows. You gain the following benefits:\n\n- You can try to hide when you are lightly obscured from the character from which you are hiding.\n- When you are hidden from a character and miss it with a ranged weapon attack, making the attack doesn't reveal your position.\n- Dim light doesn't impose disadvantage on your Perception checks relying on sight."
+    },
+    {
+        "name": "Sneak Attack",
+        "tag": [
+            "combat",
+            "offensive"
+        ],
+        "preq": [
+            "Accuracy +1",
+            "Dexterity +1",
+            "Once every 4th Power"
+        ],
+        "desc": "You know how to strike subtly and exploit a foe's distraction. Once per Round, you can deal an extra 1d6 damage of your weapon's damage type to one Character you hit with an attack if you have Advantage on the attack roll. The attack must use your Dexterity or Accuracy.\n\nYou don't need Advantage on the attack roll if another enemy of the target is within 5ft of it, that enemy isn't incapacitated, and you don't have Disadvantage on the attack roll.\n\nWhen you take this Power again, increase the damage bonus by 1d6. You can take this Power 4 more times, for a total of 5 times."
+    },
+    {
+        "name": "Sneaky",
+        "tag": [
+            "racial",
+            "goblinoid",
+            "exploration",
+            "skill"
+        ],
+        "preq": [
+            "Dexterity +1"
+        ],
+        "desc": "You gain proficiency in the Stealth skill. If you were already, or later gain proficiency, you instead gain Expertise in the Stealth skill."
+    },
+    {
+        "name": "Sniper",
+        "tag": [
+            "combat",
+            "offensive"
+        ],
+        "preq": [
+            "Accuracy +1"
+        ],
+        "desc": "When you hit with a Ranged Weapon Attack against a Character 60ft away or further, you gain your Bonus to the damage roll."
+    },
+    {
+        "name": "Song of Rest",
+        "tag": [
+            "background",
+            "exploration",
+            "recovery"
+        ],
+        "preq": [
+            "Tools, Musical Instrument (one of)"
+        ],
+        "desc": "You can use soothing music or oration to help revitalize your wounded allies during a Short Rest. If you or any friendly creatures who can hear your performance regain Health at the end of the Short Rest, each of those creatures regains an extra 1d6 Health."
+    },
+    {
+        "name": "Sorcerous Origin",
+        "tag": [
+            "background",
+            "racial",
+            "resource",
+            "universal",
+            "sorcerous-origin",
+            "any-race"
+        ],
+        "preq": [
+            "Occult Spellcasting*"
+        ],
+        "desc": "One of the rare lucky, or cursed, few: you have been graced with an inherent source of magical power. You may have been born with it, or had it thrust upon you. Nevertheless from it comes your ability to cast Occult Magic. Choose one Sorcerous Origin Power you have the prerequisites for. You cannot take this Power more than once or benefit from more than one Sorcerous Origin.\n\n*You may take this Power as a Racial Power no matter your Race, or as your Background Power. If you do you must, as one of your first 3 Powers, take the Occult Spellcasting Power, which means you must also take Mana as one of your first 3 Powers."
+    },
+    {
+        "name": "Speak with Small Beasts",
+        "tag": [
+            "gnome",
+            "racial",
+            "skill",
+            "social"
+        ],
+        "preq": [],
+        "desc": "You learn the secret language of Sylvan, the skill Language (Sylvan), and through this language, sounds and gestures, you may communicate simple ideas to Small or smaller beasts and receive simple information from them as appropriate to the beast in question, although they cannot speak back."
+    },
+    {
+        "name": "Squat and Nimble",
+        "tag": [
+            "combat",
+            "dwarf",
+            "exploration",
+            "movement",
+            "racial",
+            "roll-effecting",
+            "skill",
+            "gnome",
+            "goblinoid",
+            "halfling"
+        ],
+        "preq": [],
+        "desc": "You can move through the space of any character that is of a size larger than yours, and you gain proficiency in Acrobatics or Athletics (your choice). You have Advantage on Athletics or Acrobatics (depending on which you chose) checks to escape being Grappled."
+    },
+    {
+        "name": "Statistic Increase",
+        "tag": [
+            "roll-effecting",
+            "universal",
+            "stat",
+            "powerful"
+        ],
+        "preq": [
+            "After 3 Powers",
+            "Once every 6th Power"
+        ],
+        "desc": "Increase one Statistic by +1, to a maximum of +5."
+    },
+    {
+        "name": "Stonecunning",
+        "tag": [
+            "dwarf",
+            "exploration",
+            "racial",
+            "roll-effecting",
+            "skill",
+            "social"
+        ],
+        "preq": [],
+        "desc": "Whenever you make an History check related to the origin of stonework, you are considered Proficient in the History skill if you are not, or to have Expertise if you're Proficient. If you have Expertise in History, you make History checks related to the origin of stonework with Advantage."
+    },
+    {
+        "name": "Stout Resiliance",
+        "tag": [
+            "damage-reduction",
+            "dwarf",
+            "exploration",
+            "racial",
+            "utility",
+            "halfling"
+        ],
+        "preq": [],
+        "desc": "You have Advantage on saving throws against poison, and you have Resistance to poison damage."
+    },
+    {
+        "name": "Subtle Spell",
+        "tag": [
+            "meta-magic"
+        ],
+        "preq": [
+            "Meta Magic",
+            "Willpower +1"
+        ],
+        "desc": "When you cast a spell, you can spend 1 Magnitude I Reserve to cast it without any somatic or verbal components."
+    },
+    {
+        "name": "Svirfneblin Magic",
+        "tag": [
+            "background",
+            "cantrip",
+            "exploration",
+            "racial",
+            "spellcasting",
+            "gnome"
+        ],
+        "preq": [
+            "Intelligence +2"
+        ],
+        "desc": "You have inherited the innate spellcasting ability of your ancestors.\n\nYou learn to cast each of the following spells once without expending Mana with this Power: Blindness\/Deafness, Blur, Disguise Self, and Nondetection (targetting only yourself but without needing the 25gp material component). You regain the ability to cast these spells when you finish a Long Rest. Intelligence is your Magic Statistic for these spells."
+    },
+    {
+        "name": "Swift",
+        "tag": [
+            "combat",
+            "exploration",
+            "movement",
+            "utility"
+        ],
+        "preq": [
+            "Dexterity +1"
+        ],
+        "desc": "You're faster on your feet, or however else it is you locomote, than others. Increase your Speed by 10ft and your travel speed by 1 mile. When you take this Power again, increase the Dexterity prerequise by 1 for each Rank you have in this Power. You can take this Power 2 more times, up to 3 times, though each time you take this Power the Dexterity prerequisite increases by one."
+    },
+    {
+        "name": "Tactical Wit",
+        "tag": [
+            "combat",
+            "stat",
+            "utility",
+            "background"
+        ],
+        "preq": [
+            "Intelligence +1"
+        ],
+        "desc": "Your keen ability to assess tactical situations allows you to act quickly in battle. You can give yourself a bonus to your initiative rolls equal to your Intelligence."
+    },
+    {
+        "name": "Thief of Five Fates",
+        "tag": [
+            "invocation"
+        ],
+        "preq": [
+            "Bane Spell",
+            "Pact Magic"
+        ],
+        "desc": "You can cast Bane once per Long Rest, without spellcasting, expending your Stipend \/ Mana, or needing material components."
+    },
+    {
+        "name": "Thrown Weapon Fighting",
+        "tag": [
+            "combat",
+            "offensive"
+        ],
+        "preq": [
+            "Accuracy +1"
+        ],
+        "desc": "You can draw a weapon that has the Thrown property as part of the Attack Action you make with the weapon. In addition, if you hit, you gain a +2 Bonus to the damage roll."
+    },
+    {
+        "name": "Tinkerer",
+        "tag": [
+            "background",
+            "exploration",
+            "gnome",
+            "goblinoid",
+            "racial",
+            "skill",
+            "utility",
+            "human"
+        ],
+        "preq": [],
+        "desc": "You gain proficiency with in the Engineering Skill. Using Tinkerer's tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (1 Health, 5 Defence). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your Action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time. When you create a device, choose one of the following options:\n\n- **Clockwork Toy**. This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents.\n- **Fire Starter**. The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action.\n- **Music Box**. When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song's end or when it is closed.\n- At your DM's discretion, you may make other objects with effects similar in power to these. The Prestidigitation cantrip is a good baseline for such effects."
+    },
+    {
+        "name": "Transmuted Spell",
+        "tag": [
+            "meta-magic"
+        ],
+        "preq": [
+            "Fortitude +1",
+            "Meta Magic"
+        ],
+        "desc": "When you cast a spell that deals a type of organic or energy damage (see the following list), you can spend 1 Magnitude I Reserve to change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, psychic."
+    },
+    {
+        "name": "Tricky Tactics",
+        "tag": [
+            "combat",
+            "offensive",
+            "defensive",
+            "utility",
+            "focus"
+        ],
+        "preq": [
+            "Dexterity +1"
+        ],
+        "desc": "You gain the following Tactical Actions:\n\n- **Evasive Footwork** - when you take the Move action, you can spend 1 Focus and roll a d6. You add the number rolled to your Defence until you stop moving. So if you take the Move action in the following Round\/s, the bonus is carried forward.\n- **Feint** - as a Bonus Action, you can choose one character within 5ft of you as your target to Feint against. You then have Advantage on your next Attack roll against that character this Round.\n- **Goad** - as an Action, when a target Character that can see or hear you has an Intelligence Stat, you can attempt to goad the target into attacking you. You must make a Charisma check vs their passive Willpower. On a success, the target has Disadvantage on all attack rolls against targets other than you until the end of the Round."
+    },
+    {
+        "name": "Troglobite",
+        "tag": [
+            "dwarf",
+            "elf",
+            "exploration",
+            "racial",
+            "roll-effecting",
+            "sense",
+            "gnome"
+        ],
+        "preq": [],
+        "desc": "You have Superior Darkvision:\n- You gain the Power Darkvision but to a range of 120ft, instead of 60ft. \n\nHowever, you have Sunlight Sensitivity:\n- You have Disadvantage on attack rolls and Perception checks that rely on sight when you, the target of the attack, or whatever you are trying to perceive is in direct sunlight."
+    },
+    {
+        "name": "Turn Undead",
+        "tag": [
+            "combat",
+            "miracle",
+            "utility"
+        ],
+        "preq": [
+            "Divine Domain"
+        ],
+        "desc": "As an Action, you Channel Divinity and present your holy symbol and speak a prayer censuring the undead. Each undead that can see or hear you within 30ft of you must make a Willpower saving throw. If the undead fails its saving throw, it is turned for 1 minute or until it takes any damage.\n\nA turned undead must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30ft of you. For its Action, it can only Move or try to escape from an effect that prevents it from Moving. If there's nowhere to move, the undead can use the Dodge action."
+    },
+    {
+        "name": "Twinned Spell",
+        "tag": [
+            "meta-magic"
+        ],
+        "preq": [
+            "Fortitude +1",
+            "Meta Magic",
+            "Willpower +1"
+        ],
+        "desc": "When you cast a spell that targets only one character and doesn't have a range of self, you can spend another Reserve of Mana of the spell's Magnitude to target a second character in range with the same spell (or 1 Reserve of Magnitude I if the spell is a cantrip). To be eligible, a spell must be incapable of targeting more than one character at the spell's current Magnitude. For example, magic missile and scorching ray aren't eligible, but ray of frost and chromatic orb are."
+    },
+    {
+        "name": "Two Weapon Fighting",
+        "tag": [
+            "combat",
+            "offensive",
+            "fighting-style"
+        ],
+        "preq": [
+            "Dexterity +1"
+        ],
+        "desc": "You can make an Off-Hand Strike even if neither weapon has the Light property, although neither weapon may have the Heavy Property, and you can add your attack Statistic to the damage roll of the Off-Hand Strike."
+    },
+    {
+        "name": "Unarmed Fighting",
+        "tag": [
+            "combat",
+            "offensive",
+            "fighting-style"
+        ],
+        "preq": [
+            "Strength +1"
+        ],
+        "desc": "You've trained extensively in unarmed combat, gaining the following benefits:\n\n- You gain Proficiency in Body and Improvised Weapons if you were not already.\n- Your Unarmed Attacks can deal bludgeoning damage equal to 1d4 + your Strength on a hit. If you aren't wielding any weapons or a shield when you make the attack roll, the d4 becomes a d6.\n- Your Unarmed and Improvised Attacks contain the Block I, Finesse and Parry (Bludgeoning) properties."
+    },
+    {
+        "name": "Unhindered Movement",
+        "tag": [
+            "combat",
+            "exploration",
+            "movement"
+        ],
+        "preq": [],
+        "desc": "When you are not wearing armour or wielding a shield, your Speed increases by 10ft. Additionally, when you take the Move action, if you start and finish your movement on solid ground, you can move along or up vertical surfaces without falling and across liquids without sinking in."
+    },
+    {
+        "name": "Unleashed Wild Shape",
+        "tag": [
+            "combat",
+            "exploration",
+            "utility"
+        ],
+        "preq": [
+            "After 3 Powers",
+            "Once every 4th Power",
+            "Wild Shape",
+            "Willpower +3"
+        ],
+        "desc": "You dive more deeply into the power of the animal wild, and you gain the following benefits:\n\n- Increase Challenge Rating limit of your Wild Shape by 1\/2, to a maximum of 3\n- Increase the number of hours you can stay in Wild Shape by 1, to a maximum of 6\n- Choose one category: flying speed, burrowing speed, swimming speed, dragon, elemental, fell, fey, giant, lycanthrope, monstrosity, ooze, plant. You can now Wild Shape into a creature that has this kind of movement that belongs to a category you can Wild Shape into, or belongs to the new category, that you have studied, as with normal Wild Shape."
+    },
+    {
+        "name": "Vanguard Tactics",
+        "tag": [
+            "combat",
+            "offensive",
+            "utility",
+            "focus"
+        ],
+        "preq": [
+            "Strength +1"
+        ],
+        "desc": "You gain the following Tactical Actions:\n\n- **Charge** - when you use your Action to Move, moving at least 15ft or half your speed (whichever is lower), at the end of the Move you can make 1 Weapon Attack at Advantage as a Bonus Action. You can spend 1 Focus to add 1d6 damage to the attack.\n- **Hound** - When you hit a character that is 2 sizes larger than you or less with a weapon attack, you can forego damage to move the target 10ft in a direction of your choice without provoking attacks of opportunity."
+    },
+    {
+        "name": "Warding Flare",
+        "tag": [
+            "combat",
+            "miracle",
+            "offensive",
+            "roll-effecting",
+            "utility"
+        ],
+        "preq": [
+            "Divine Domain"
+        ],
+        "desc": "You gain the Light cantrip. If you already know this cantrip, you learn a different Divine Sphere cantrip of your choice.\n\nYou can Channel Divinity and interpose divine light between yourself and an attacking enemy. When you are attacked by a character within 30ft of you that you can see, you can use your Bonus Action and impose Disadvantage on the attack roll, causing light to flare before the attacker before it hits or misses. An attacker that can't be blinded is immune to this Miracle.\n\nYou can use this Miracle a number of times equal to your Faith (a minimum of once). You regain all expended uses when you finish a Rest."
+    },
+    {
+        "name": "Wild Magic",
+        "tag": [
+            "roll-effecting",
+            "sorcerous-origin"
+        ],
+        "preq": [
+            "Sorcerous Origin"
+        ],
+        "desc": "Your innate magic comes from the wild forces of chaos that underlie the order of creation. You might have endured exposure to some form of raw magic, perhaps through a planar portal leading to Limbo, the Elemental Planes, or the mysterious Far Realm. Perhaps you were blessed by a powerful fey creature or marked by a demon. Or your magic could be a fluke of your birth, with no apparent cause or reason. However it came to be, this chaotic magic churns within you, waiting for any outlet.\n\n**Wild Magic Surge** - Your spellcasting can unleash surges of untamed magic. You roll a d20 immediately after you cast a sorcerer spell of Magnitude I or higher for the first time in a Round. If you roll a 1, roll on the Wild Magic Surge table to create a magical effect. If that effect is a spell, it is too wild to be affected Meta Magic, if you're able, and if it normally requires concentration, it doesn't require concentration in this case; the spell lasts for its full duration.\n\n**Tides of Chaos** - You can manipulate the forces of chance and chaos to gain Advantage on one attack roll, ability check, or saving throw. Once you do so, you must finish a Long Rest before using Tides of Chaos again. If you have a Wild Magic Surge, you regain the use of Tides of Chaos."
+    },
+    {
+        "name": "Wild Shape",
+        "tag": [
+            "combat",
+            "exploration",
+            "movement",
+            "sense",
+            "spell-like",
+            "utility"
+        ],
+        "preq": [
+            "Primal Spellcasting",
+            "Willpower +1"
+        ],
+        "desc": "You can use your Action to magically assume the shape of a Beast that you have learned before (what constitutes 'learning a creature' depends on the creature and the circumstances, typically an hour of unobtrusive observation).\n\n- You can use this Power a number of times equal to your Willpower. You regain expended uses when you finish a Short Rest.\n- You can transform into any beast that has a Challenge Rating of 1\/2 or lower that doesn't have a flying, burrowing or swimming speed.\n- You can stay in a wild shape for 1 hour. You then revert to your normal form unless you expend another use of this Power. You can revert to your normal form earlier by using a Bonus Action. You automatically revert if you fall unconscious, drop to 0 Health, or die.\n\nWhile you are transformed, the following rules apply:\n\n- Your Strength, Dexterity, Accuracy and Perception statistics are replaced by those of the Creature. You retain your Intelligence and Charisma statistics, and also retain all of your skill and saving throw proficiencies, in addition to gaining those of the Creature. If the Creature has the same Proficiency Bonus as you, but the Bonus in its stat block is higher than yours, use the Creature's Bonus instead of yours. If the Creature has any legendary or lair actions, you can't use them.\n- When you transform, you assume the beast's full Health. When you revert to your normal form, you return to the Health value you had before you transformed. However, if you revert as a result of dropping to 0 Health, any excess damage carries over to your normal form, For example, if you take 10 damage in a form that has only 1 Health left, you revert and take 9 damage. As long as the excess damage doesn't reduce your normal form to 0 Health, you aren't knocked unconscious.\n- You can't cast spells, and your ability to speak or take any action that requires hands or humanoid mouth is limited to the capabilities of your form. Transforming doesn't break your Concentration on a spell you've already cast, however, or prevent you from taking actions that are part of a spell, such as Call Lightning, that you've already cast.\n- You retain the benefit of any Powers and can use them if the new form is physically capable of doing so. However, as your senses are replaced, you can't use any of your special senses, such as darkvision, unless your new form also has them.\n- You choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the GM decides whether it is practical for the new form to wear a piece of equipment, based on the creature's shape and size. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with it. Equipment that merges with the form has no effect until you leave the form."
+    },
+    {
+        "name": "Wonder Maker",
+        "tag": [
+            "background",
+            "exploration",
+            "gnome",
+            "racial"
+        ],
+        "preq": [
+            "Tinkerer"
+        ],
+        "desc": "You master the techniques of tinkering. You gain Expertise with Tinker's Tools.\n\nWhen you make a device with your Tinker Power, you have the following additional options for what you make:\n- **Alarm**: This device senses when a charater moves to within 15ft of it without speaking aloud a password chosen when you create it. One round after a character moves into range, the alarm makes a shrill ringing that lasts for 1 minute and can be heard from up to 300ft away.\n- **Mechanical Calculator**: This device makes doing sums trivial.\n- **Lifter**: This device can be used as a block and tackle, allowing its user to hoist five times the weight the user can normally lift.\n - **Timekeeper**: This pocket watch keeps accurate time.\n - **Weather Sensor**: When used as an action, this device predicts weather conditions in a 1-mile radius over the next 4 hours, showing one symbol (clouds, sun\/moon, rain, or snow) for each hour"
+    },
+    {
+        "name": "Wood Elf Magic",
+        "tag": [
+            "background",
+            "cantrip",
+            "elf",
+            "exploration",
+            "racial",
+            "spellcasting",
+            "half-elf"
+        ],
+        "preq": [],
+        "desc": "You learn the magic of the primeval woods, which are revered and protected by your people. You learn one Primal Sphere cantrip of your choice. You also learn the Longstrider and Pass Without Trace spells, each of which you can cast once without expending Mana. You regain the ability to cast these two spells in this way when you finish a Long Rest. The Verdance of your locale is your spellcasting ability for these spells. See the [Verdance Table](\/pedd\/magic#verdance-table)."
+    }
+]
